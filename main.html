@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/Styles.css">
 
 </head>
 <body>
@@ -14,20 +15,20 @@
         <div class="Logo">
             <a href="">
                 <img src="" alt="">
-                <span>i-Forex</span>
-                <span>Group Limited</span>
+                <span class="title">I-Forex</span>
+                <span class="description">Group Limited</span>
             </a>
         </div>
         <div class="DataTime">
-            <span></span>
-            <span>20 : 47 : 18</span>
-            <span>05/09 2018</span>
+            <span class="icon-time"></span>
+            <span class="time">20 : 47 : 18</span>
+            <span class="date">05/09 2018</span>
         </div>
         <div class="Input">
             <a href="">
-                <span></span>
+                <span class="icon-lock"></span>
                 <span>Login</span>
-                <span></span>
+                <span class="icon-userPlus"></span>
                 <span>Register</span>
             </a>
         </div>
@@ -54,38 +55,35 @@
                 and this is why we're the choice of over one million clients.</p>
         </div>
         <div class="But">
-            <button>Invest now</button>
+            <button>Invest now<span class="icon-rightArrow"></span></button>
         </div>
         <div class="Social">
-            <a href=""><span></span></a>
-            <a href=""><span></span></a>
-            <a href=""><span></span></a>
-            <a href=""><span></span></a>
-        </div>
-        <div class="SocialMedium">
+            <a href=""><span class="icon-facebook"></span></a>
+            <a href=""><span class="icon-skype"></span></a>
+            <a href=""><span class="icon-telegram"></span></a>
             <span>we on social media</span>
         </div>
         <div class="StatisticBlock">
             <div class="card1">
-                <span></span>
-                <span>Bitcoin (BTC):</span>
-                <span>7 406,62 USD</span>
-                <span>10,21%</span>
-                <span></span>
+                <span class="icon-btc"></span>
+                <span class="btc">Bitcoin (BTC):</span>
+                <span class="dollar">7 406,62 USD</span>
+                <span class="percent">10,21%</span>
+                <span class="icon-triangleTop"></span>
             </div>
             <div class="card2">
-                <span></span>
-                <span>Ethereum (ETH):</span>
-                <span>498,21 USD</span>
-                <span>5,33%</span>
-                <span></span>
+                <span class="icon-eth"></span>
+                <span class="eth">Ethereum (ETH):</span>
+                <span class="dollar">498,21 USD</span>
+                <span class="percent">5,33%</span>
+                <span class="icon-triangleTop"></span>
             </div>
             <div class="card3">
-                <span></span>
-                <span>Litecoin (LTC):</span>
-                <span>91,19 USD</span>
-                <span>9,05%</span>
-                <span></span>
+                <span class="icon-ltc"></span>
+                <span class="ltc">Litecoin (LTC):</span>
+                <span class="dollar">91,19 USD</span>
+                <span class="percent">9,05%</span>
+                <span class="icon-triangleDown"></span>
             </div>
         </div>
     </div>
@@ -96,7 +94,8 @@
             <a href="#">About Company</a>
             <div class="content">
                 <h2>About I-FOREX Group Limited</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut eu aliquet dui orci varius natoque
+                <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut eu aliquet dui orci varius
+                    natoque
                     penatibus.</p>
                 <p>Et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur mi augue,vulputate
                     cursus tellus vehicula eget.</p>
@@ -120,49 +119,61 @@
 </div>
 <div class="Tarif">
     <div class="container">
-        <div class="card">
+        <div class="card1">
             <a href="">
-                <span></span>
-                <span>Classic plan</span>
-                <span>7% Daily</span>
-                <span>For 20 Days</span>
+                <span class="icon-rangePlanet">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                </span>
+                <span class="title">Classic plan</span>
+                <span class="percent">7% Daily</span>
+                <span class="day">For 20 Days</span>
             </a>
         </div>
-        <div class="card">
+        <div class="card2">
             <a href="">
-                <span></span>
-                <span>Royal plan</span>
-                <span>8% Daily</span>
-                <span>For 20 Days</span>
+                <span class="icon-diomond">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                </span>
+                <span class="title">Royal plan</span>
+                <span class="percent">8% Daily</span>
+                <span class="day">For 20 Days</span>
             </a>
             <div class="contentcard">
                 <div class="PlanBlock">
-                    <h2>Royal plan</h2>
+                    <h3>Royal plan</h3>
                     <div class="ulplan1">
-                        <span>Deposit: Included</span>
-                        <span>Accruals: 7 days of week</span>
-                        <span>Withdrawals: Instant</span>
+                        <span>Deposit:</span>
+                        <span class="title">Included</span>
+                        <span>Accruals:</span>
+                        <span class="title">7 days of week</span>
+                        <span>Withdrawals:</span>
+                        <span class="title">Instant</span>
                     </div>
                     <div class="ulplan2">
                         <span>Minimal — Maximal Deposit:</span>
-                        <span>1,501 $ — 25,000 $</span>
+                        <span class="dollar">1,501 $ — 25,000 $</span>
                         <span>Min. Cashout:</span>
-                        <span>1 $ (PM, PAYEER)   3 $ (BTC, ETH, LTC)</span>
+                        <span class="price">1 $</span>
+                        <span class="payMents">(PM, PAYEER)</span>
+                        <span class="price">3 $</span>
+                        <span class="payMents">(BTC, ETH, LTC)</span>
                     </div>
                     <div class="ulplan3">
                         <span>DAILY PROFIT:</span>
-                        <span>8%</span>
+                        <span class="percent">8%</span>
                     </div>
                     <div class="ulplan4">
                         <span>TOTAL PROFIT:</span>
-                        <span>160%</span>
+                        <span class="percent">160%</span>
                     </div>
                 </div>
                 <div class="ListPlan">
                     <form action="#">
                         <div class="item">
                             <label for="cash">Enter amount:</label>
-                            <input type="text" name="cash" id="cash">
+                            <input type="text" name="cash" id="cash"><span>$</span>
                             <label for="plan2">Select plan:</label>
                             <select name="plan2" id="plan2">
                                 <option value="8% Daily For 20 Day">8% Daily For 20 Day</option>
@@ -172,16 +183,19 @@
                 </div>
                 <div class="YourProfit">
                     <span>Your profit:</span>
-                    <span>4235.00$</span>
+                    <span class="dollar">4235.00$</span>
                 </div>
-                <div class="But3">
-                    <button>Invest now</button>
+                <div class="But">
+                    <button>Invest now<span class="icon-rightArrow"></span></button>
                 </div>
             </div>
         </div>
-        <div class="card">
+        <div class="card3">
             <a href="">
-                <span></span>
+                <span class="icon-peopleSetting">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                </span>
                 <span>Expert plan</span>
                 <span>10% Daily</span>
                 <span>For 12 Days</span>
@@ -195,35 +209,36 @@
             <h2>I-Forex Group Limited Video</h2>
             <span>i-Forex Group Limited Video</span>
             <video src="#"></video>
+            <button><span class="icon-power"></span></button>
         </div>
     </div>
 </div>
 <div class="statistic">
     <div class="container">
-        <div class="statisticWebsite">
-            <span></span>
-            <span>350</span>
-            <span>Online Days</span>
+        <div class="statisticWebsite1">
+            <span class="icon-galocha2"></span>
+            <span class="number">350</span>
+            <span class="title">Online Days</span>
         </div>
-        <div class="statisticWebsite">
-            <span></span>
-            <span>20320</span>
-            <span>Total Visitors</span>
+        <div class="statisticWebsite2">
+            <span class="icon-galocha2"></span>
+            <span class="number">20320</span>
+            <span class="title">Total Visitors</span>
         </div>
-        <div class="statisticWebsite">
-            <span></span>
-            <span>3750</span>
-            <span>Total Users</span>
+        <div class="statisticWebsite3">
+            <span class="icon-galocha2"></span>
+            <span class="number">3750</span>
+            <span class="title">Total Users</span>
         </div>
-        <div class="statisticWebsite">
-            <span></span>
-            <span>$360550</span>
-            <span>Total Deposits</span>
+        <div class="statisticWebsite4">
+            <span class="icon-galocha2"></span>
+            <span class="persent">$360550</span>
+            <span class="title">Total Deposits</span>
         </div>
-        <div class="statisticWebsite">
-            <span></span>
-            <span>$230890</span>
-            <span>Total Withdrawals</span>
+        <div class="statisticWebsite5">
+            <span class="icon-galocha2"></span>
+            <span class="persent">$230890</span>
+            <span class="title">Total Withdrawals</span>
         </div>
 
     </div>
@@ -236,63 +251,73 @@
                 <ul>
                     <li>
                         <span>kacemtrans</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9650;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleTop"></span>
+                        <span class="icon-btc"></span>
                     </li>
                     <li>
                         <span>alexcandr</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9650;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleTop"></span>
+                        <span class="icon-btc"></span>
                     </li>
                     <li>
                         <span>atzf2e00d</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9650;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleTop"></span>
+                        <span class="icon-eth"></span>
                     </li>
                     <li>
                         <span>draghetto</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9650;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleTop"></span>
+                        <span class="icon-ltc"></span>
                     </li>
                     <li>
                         <span>TheDude</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9650;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleTop"></span>
+                        <span class="icon-eth"></span>
                     </li>
                     <li>
                         <span>kacemtrans</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9650;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleTop"></span>
+                        <span class="icon-eth"></span>
                     </li>
                     <li>
                         <span>alexcandr</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9650;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleTop"></span>
+                        <span class="icon-eth"></span>
                     </li>
                     <li>
                         <span>atzf2e00d</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9650;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleTop"></span>
+                        <span class="icon-pm"></span>
                     </li>
                     <li>
                         <span>draghetto</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9650;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleTop"></span>
+                        <span class="icon-pm"></span>
                     </li>
                     <li>
                         <span>TheDude</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9650;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleTop"></span>
+                        <span class="icon-p"></span>
                     </li>
                 </ul>
             </div>
@@ -301,67 +326,77 @@
                 <ul>
                     <li>
                         <span>kacemtrans</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9660;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleDown"></span>
+                        <span class="icon-btc"></span>
                     </li>
                     <li>
                         <span>alexcandr</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9660;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleDown"></span>
+                        <span class="icon-btc"></span>
                     </li>
                     <li>
                         <span>atzf2e00d</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9660;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleDown"></span>
+                        <span class="icon-eth"></span>
                     </li>
                     <li>
                         <span>draghetto</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9660;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleDown"></span>
+                        <span class="icon-ltc"></span>
                     </li>
                     <li>
                         <span>TheDude</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9660;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleDown"></span>
+                        <span class="icon-eth"></span>
                     </li>
                     <li>
                         <span>kacemtrans</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9660;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleDown"></span>
+                        <span class="icon-eth"></span>
                     </li>
                     <li>
                         <span>alexcandr</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9660;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleDown"></span>
+                        <span class="icon-eth"></span>
                     </li>
                     <li>
                         <span>atzf2e00d</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9660;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleDown"></span>
+                        <span class="icon-pm"></span>
                     </li>
                     <li>
                         <span>draghetto</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9660;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleDown"></span>
+                        <span class="icon-pm"></span>
                     </li>
                     <li>
                         <span>TheDude</span>
-                        <span>Sep-05-2018 03:45:38 PM</span>
-                        <span>15.32 USD &#9660;</span>
-                        <img src="" alt="">
+                        <span class="data">Sep-05-2018 03:45:38 PM</span>
+                        <span class="dollar">15.32 USD</span>
+                        <span class="icon-triangleDown"></span>
+                        <span class="icon-p"></span>
                     </li>
                 </ul>
             </div>
-            <div class="But3">
+            <div class="But2">
                 <button>More Info</button>
             </div>
         </div>
@@ -369,8 +404,9 @@
 </div>
 <div class="Advantages">
     <div class="container">
-        <h2>Referral rate</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nunc eros, malesuada id nunc id, pretium
+        <h3>Referral rate</h3>
+        <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nunc eros, malesuada id nunc
+            id, pretium
             volutpat nisl in viverra mattis justo.</p>
         <p>Gravida diam convallis scelerisque. Aenean sollicitudin aliquet massa, at dignissim mi sagittis in.</p>
         <p>Sed at purus in mi congue tristique sed eget nunc. Phasellus nec augue at nibh ultrices semper.</p>
@@ -382,66 +418,84 @@
     </div>
 </div>
 <div class="news">
+    <div class="pagination">
+        <span class="control">
+            <a href="#" class="icon-leftArrow"></a>
+        </span>
+        <span class="control">
+            <a href="#" class="icon-rightArrow"></a>
+        </span>
+    </div>
     <div class="container">
         <h2>Latest news</h2>
-        <div class="card">
-            <span>Hourly MAs adopting bull bias, focus on dollar index</span>
-            <span>sep-05-2018 15:30</span>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu aliquet dui. Orci varius natoque penatibus
+        <div class="list1">
+            <p>Hourly MAs adopting bull bias, focus on dollar index</p>
+            <span class="icon-calendar"></span>
+            <span class="data">Sep-05-2018 15:30</span>
+            <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu aliquet dui. Orci varius
+                natoque penatibus
                 et magnis dis parturient montes.</p>
             <button>Read More</button>
         </div>
-        <div class="card">
-            <span>WTI breaks higher to test $ 69 ahead of EIA data</span>
-            <span>sep-05-2018 15:30</span>
-            <img src="" alt="">
-            <p>Aenean sollicitudin aliquet massa, at dignissim mi sagittis in. Sed aliquet sit amet quam eget faucibus.
+        <div class="list2">
+            <p>WTI breaks higher to test $ 69 ahead of EIA data</p>
+            <span class="icon-calendar"></span>
+            <span class="data">Sep-05-2018 15:30</span>
+            <p class="title">Aenean sollicitudin aliquet massa, at dignissim mi sagittis in. Sed aliquet sit amet quam
+                eget faucibus.
                 Donec porta placerat posuere.</p>
             <button>Read More</button>
         </div>
-        <div class="card">
-            <span>Global equities were biased lower with the USD mixed - ANZ</span>
-            <span>sep-05-2018 15:30</span>
-            <img src="" alt="">
-            <p>Pellentesque feugiat diam dolor, pulvinar gravida diam convallis scelerisque. Aenean sollicitudin aliquet
+        <div class="list3">
+            <p>Global equities were biased lower with the USD mixed - ANZ</p>
+            <span class="icon-calendar"></span>
+            <span class="data">Sep-05-2018 15:30</span>
+            <p class="title">Pellentesque feugiat diam dolor, pulvinar gravida diam convallis scelerisque. Aenean
+                sollicitudin aliquet
                 massa, at dignissim mi sagittis in.</p>
-            <button>Read More</button>
+            <div class="But2">
+                <button>Read More<span class="icon-rightArrow"></span></button>
+            </div>
         </div>
     </div>
 </div>
 <div class="payments">
-        <div class="container">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
+    <div class="container">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
     </div>
+</div>
 <footer>
     <div class="conteiner">
         <div class="data">
-            <ul>
-                <li><span>ADRESS:<a href="">England, London, N1 7GU, 20-22 Wenlock road</a></span></li>
-                <li>PHONE:<span><a href="tel:+44 7911 123-456">+44 7911 123-456</a></span></li>
-                <li>E-MAIL:<span><a href="mailto:i-forexgroup@info.com">i-forexgroup@info.com</a></span></li>
-            </ul>
+            <span>ADRESS:</span>
+            <a href="">England, London, N1 7GU, 20-22 Wenlock road</a>
+            <span>PHONE:</span>
+            <a href="tel:+44 7911 123-456">+44 7911 123-456</a>
+            <span>E-MAIL:</span>
+            <a href="mailto:i-forexgroup@info.com">i-forexgroup@info.com</a>
         </div>
         <div class="logo">
-            <a href="#"><img src="#" alt="#"><span>i-Forex</span><span>group Limited</span></a>
+            <a href="#"><img src="#" alt="#">
+                <span class="title">i-Forex</span>
+                <span>group Limited</span>
+            </a>
             <div class="copyright">
-            <span>2018 &#169; I-FOREX Group Limited.</span>
-            <span>All rights reserved.</span>
+                <span>2018 &#169; I-FOREX Group Limited.</span>
+                <span>All rights reserved.</span>
             </div>
         </div>
     </div>
     <div class="contact">
-        <ul>
-            <li><span>Facebook:<a href="">https://www.facebook.com/ i-forexgroup</a></span></li>
-            <li><span>SKYPE:<a href="skype:i-forexgroupchat">i-forexgroup</a></span></li>
-            <li><span>TELEGRAM:<a href="tel:+44 7911 123-456">+44 7911 123-456</a></span></li>
-        </ul>
+        <span>Facebook:</span>
+        <a href="">https://www.facebook.com/ i-forexgroup</a>
+        <span>SKYPE:</span>
+        <a href="skype:i-forexgroupchat">i-forexgroup</a>
+        <span>TELEGRAM:</span>
+        <a href="tel:+44 7911 123-456">+44 7911 123-456</a>
     </div>
     <div class="menuFooter">
         <a href=""></a>
