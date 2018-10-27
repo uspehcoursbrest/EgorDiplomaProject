@@ -315,6 +315,7 @@ header .Menu a {
     line-height: 55px;
     color: #ffffff;
     width: 300px;
+    height: 55px;
     background-color: #0b48af;
     border: 1px solid #3168cb;
 }
