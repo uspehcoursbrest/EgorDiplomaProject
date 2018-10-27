@@ -1,21 +1,874 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0 auto;
     font-family: "Brutal Type";
 }
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
+
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 
 }
+
 .container {
-    width: 1920px;
+    width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+header {
+    background-color: #023ba2;
+}
+
+header .Logo .title {
+    font-size: 37px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+header .Logo .description {
+    font-size: 13px;
+    line-height: 84px;
+    color: #ffffff;
+}
+
+header .Logo a {
+    text-decoration: none;
+}
+
+header span.icon-time {
+    font-size: 21px;
+    color: #ffffff;
+}
+
+header .DataTime span.time {
+    font-size: 35px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+header .DataTime span.date {
+    font-size: 13px;
+    line-height: 16px;
+    color: #9ec2f8;
+}
+
+header .Input span:nth-child(odd) {
+    font-size: 17px;
+    color: #89b4f4;
+}
+
+header .Input span:nth-child(even) {
+    font-size: 13px;
+    line-height: 84px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header .Input a {
+    text-decoration: none;
+}
+
+header .Menu a {
+    font-size: 15px;
+    line-height: 84px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+}
+.Banner {
+    background-color: #023ba3;
+}
+.Banner .StatisticBlock {
+    background-color: #ffffff;
+}
+.Banner .InfoContent h1 {
+    font-size: 133px;
+    line-height: 84px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.Banner .InfoContent span {
+    font-size: 70px;
+    line-height: 84px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.Banner .InfoContent p {
+    font-size: 20px;
+    line-height: 33px;
+    color: #96c2ff;
+}
+.But button {
+    font-size: 16px;
+    line-height: 65px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #e0186c;
+    border: none;
+    width: 230px;
+    font-weight: 700;
+}
+.Banner .Social a {
+    text-decoration: none;
+}
+.Banner .Social span[class^="ic"] {
+    font-size: 20px;
+    color: #ffffff;
+}
+.Banner .Social span.title {
+    font-size: 19px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #2f7bde;
+    text-transform: uppercase;
+}
+.StatisticBlock span:first-child {
+    color: #012c7a;
+}
+ .StatisticBlock span:nth-child(2){
+     font-size: 16px;
+     line-height: 33px;
+     color: #012c7a;
+ }
+.StatisticBlock span.dollar {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #012c7a;
+}
+.StatisticBlock span.percent {
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #4194ff;
+}
+.StatisticBlock span.percent1 {
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #e0186c;
+}
+.StatisticBlock span:nth-child(5) {
+    color: #4194ff;
+}
+.StatisticBlock .card3 span:last-child {
+    color: #e0186c;
+}
+.Info .Accordion a {
+    text-decoration: none;
+}
+.Info .Accordion a:first-child {
+    font-size: 16px;
+    line-height: 110px;
+    font-weight: 700;
+    color: #e0186c;
+    text-transform: uppercase;
+}
+.Info .Accordion h2 {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #0349c6;
+}
+.Info .Accordion p.title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #012c7a;
+}
+.Info .Accordion p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #012c7a;
+}
+.Info .Accordion .content~a {
+    font-size: 16px;
+    line-height: 110px;
+    color: #0349c6;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.But2 button {
+    font-size: 16px;
+    line-height: 53px;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    background-color: #2f7bde;
+    border: none;
+    font-weight: 700;
+}
+.Tarif {
+    background-color: #01338f;
+}
+.Tarif a {
+    text-decoration: none;
+}
+.Tarif span.title {
+    font-size: 20px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #0349c6;
+}
+.Tarif span.percent {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #e0186c;
+}
+.Tarif span.day {
+    font-size: 13px;
+    line-height: 24px;
+    color: #e0186c;
+}
+.Tarif .contentcard h3 {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+.Tarif .contentcard .PlanBlock {
+    background-color: #02399e;
+    border: 1px dashed #ffffff;
+}
+.contentcard .PlanBlock .ulplan1 span:nth-child(odd) {
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 300;
+    color: #96c2ff;
+    text-transform: uppercase;
+}
+.contentcard .PlanBlock .ulplan1 span:nth-child(even) {
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.contentcard .PlanBlock .ulplan2 span.min {
+    font-size: 15px;
+    line-height: 33px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.contentcard .PlanBlock .ulplan2 span.dollar {
+    font-size: 27px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #2b7fed;
+}
+.contentcard .PlanBlock .ulplan2 span.price {
+    font-size: 15px;
+    line-height: 33px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.contentcard .PlanBlock .ulplan2 span.payMents {
+    font-size: 15px;
+    line-height: 33px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #96c2ff;
+}
+.contentcard .PlanBlock span.profit {
+    font-size: 15px;
+    line-height: 120px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.PlanBlock .ulplan3 span.percent {
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: 700;
+    color: #e0186c;
+}
+.PlanBlock .ulplan4 span.percent {
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: 700;
+    color: #2b7fed;
+}
+.contentcard .ListPlan label {
+    font-size: 15px;
+    line-height: 84px;
+    text-transform: uppercase;
+    color: #96c2ff;
+}
+.contentcard .ListPlan input {
+    font-size: 17px;
+    line-height: 55px;
+    color: #ffffff;
+    width: 300px;
+    background-color: #0b48af;
+    border: 1px solid #3168cb;
+}
+.contentcard .ListPlan span {
+    font-size: 17px;
+    line-height: 84px;
+    color: #ffffff;
+}
+.contentcard .ListPlan select {
+    font-size: 17px;
+    line-height: 84px;
+    color: #ffffff;
+    font-weight: 500;
+    width: 300px;
+    background-color: #0b48af;
+    border: 1px solid #3168cb;
+}
+.contentcard .calculator input {
+    background-color: #e0186c;
+    width: 630px;
+}
+.contentcard .calculator span{
+    font-size: 15px;
+    line-height: 40px;
+    color: #82adf1;
+    font-weight: 300;
+}
+.contentcard .YourProfit span:first-child {
+    font-size: 15px;
+    line-height: 55px;
+    font-weight: 300;
+    color: #96c2ff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contentcard .YourProfit span.dollar {
+    font-size: 50px;
+    line-height: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+.contentcard .But {
+    text-align: center;
+}
+.Video .VideoGraph h2 {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #0349c6;
+}
+.Video .VideoGraph span.title {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: 700;
+    color: rgba(3,73,198,0.11)
+}
+.statistic span[class^="icon"] {
+    color: #044ac6;
+}
+.statistic span.number {
+    font-size: 45px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #0349c6;
+}
+.statistic .statisticWebsite4 span.number {
+    font-size: 45px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #4194ff;
+}
+.statistic .statisticWebsite5 span.number {
+    font-size: 45px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #de1c6e;
+}
+.statistic span.title {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #061046;
+}
+.statistic .statisticWebsite4 span.icon-galocha2 {
+    color: #4495ff;
+}
+.statistic .statisticWebsite5 span.icon-galocha2 {
+    color: #de1d6f;
+}
+.statistic .statisticWebsite4 span.persent {
+    font-size: 45px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #4194ff;
+}
+.statistic .statisticWebsite4 span.persent {
+    font-size: 45px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #de1c6e;
+}
+.Deposit .listDeposit h2 {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #0349c6;
+}
+.Deposit .oneList span.title {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #061046;
+}
+.Deposit .oneList span.data {
+    font-size: 14px;
+    line-height: 50px;
+    color: #91a8ce;
+}
+.Deposit .oneList span[class^="icon"] {
+    color: #4194ff;
+}
+.Deposit .oneList span.dollar {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #4194ff;
+}
+.Deposit .oneList li span:last-child {
+    color: #061046;
+}
+.Deposit .twoList span.title {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #061046;
+}
+.Deposit .twoList span.data {
+    font-size: 14px;
+    line-height: 50px;
+    color: #91a8ce;
+}
+.Deposit .twoList span[class^="icon"] {
+    color: #de1c6e;
+}
+.Deposit .twoList span.dollar {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #de1c6e;
+}
+.Deposit .twoList li span:last-child {
+    color: #061046;
+}
+.Advantages {
+    background-color: #023fad;
+}
+.Advantages h3 {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+.Advantages p.title {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.Advantages p:not(.title) {
+    font-size: 16px;
+    line-height: 30px;
+    color: #70aeff;
+}
+.Advantages span.persent1 {
+    font-size: 120px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #70aeff;
+}
+.Advantages span.persent2 {
+    font-size: 120px;
+    line-height: 84px;
+    color: #70aeff;
+}
+.Advantages .But {
+    text-align: center;
+}
+.news h2 {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #0349c6;
+}
+.news p:first-child {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #061046;
+}
+.news span[class^="icon"] {
+    color: #de1c6e;
+}
+.news span.data {
+    font-size: 16px;
+    line-height: 30px;
+    color: #739cdd;
+}
+.news p.title {
+    font-size: 16px;
+    line-height: 30px;
+    color: #012c7a;
+}
+footer {
+    background-color: #023ba2;
+}
+footer a {
+    text-decoration: none;
+}
+footer .data span {
+    font-size: 16px;
+    line-height: 30px;
+    color: #96c2ff;
+    text-transform: uppercase;
+}
+footer .data a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+footer .logo span.title {
+    font-size: 37px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+footer .logo span:last-child {
+    font-size: 13px;
+    line-height: 84px;
+    color: #ffffff;
+}
+footer .logo .copyright span {
+    font-size: 15px;
+    line-height: 30px;
+    color: #96c2ff;
+}
+footer .contact span {
+    font-size: 16px;
+    line-height: 30px;
+    color: #96c2ff;
+    text-transform: uppercase;
+}
+footer .contact a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+footer .menuFooter a {
+    font-size: 15px;
+    line-height: 84px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+}
+.Left {
+    background-color: #00256a;
+}
+.Left a {
+    text-decoration: none;
+}
+.Left a span[class^="icon"] {
+    color: #89b4f4;
+
+}
+.Left a span:last-child {
+    font-size: 14px;
+    line-height: 120px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.Left .transition {
+    border-bottom: 1px solid #325088;
+}
+.Left .copyright span {
+    font-size: 13px;
+    line-height: 30px;
+    color: #6f99da;
+}
+.Right header {
+    background-color: #00256a;
+}
+header a {
+    text-decoration: none;
+}
+.Right header .logo span.title {
+    font-size: 30px;
+    line-height: 68px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.Right header .logo span:last-child {
+    font-size: 11px;
+    line-height: 68px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.Right header .menu a {
+    font-size: 15px;
+    line-height: 84px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.Right header .wrap a {
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #2f7bde;
+}
+.StatisticAccount {
+    background-color: #eaeff9;
+}
+.Referrals {
+    background-color: #d6dff2;
+}
+.StatisticAccount a {
+    text-decoration: none;
+}
+.StatisticAccount .info span {
+    font-size: 14px;
+    line-height: 18px;
+    color: #012c7a;
+}
+.StatisticAccount .info span.data {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #012c7a;
+}
+.StatisticAccount .balance .But button   {
+    font-size: 16px;
+    line-height: 65px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #003ead;
+    border: none;
+    width: 230px;
+    font-weight: 700;
+}
+.StatisticAccount .yourbalance span:first-child {
+    color: #df2977;
+}
+.StatisticAccount .yourbalance span:nth-child(2) {
+    font-size: 12px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #0349c6;
+}
+.StatisticAccount .yourbalance  span:nth-child(3) {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0349c6;
+}
+.StatisticAccount .balance .But2 button   {
+    font-size: 16px;
+    line-height: 65px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #de1c6e;
+    border: none;
+    width: 230px;
+    font-weight: 700;
+}
+.StatisticAccount .card span[class^="icon"] {
+    color: #012c7a;
+    background-color: #ffffff;
+}
+.StatisticAccount .card span:nth-child(even) {
+    font-size: 14px;
+    line-height: 18px;
+    color: #012c7a;
+}
+.StatisticAccount .card span.dollars {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #2f7bde;
+}
+.StatisticAccount .card span.money {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #de1c6e;
+}
+.Referrals h1 {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #0349c6;
+}
+.Referrals .data {
+    background-color: #ffffff;
+}
+.Referrals a {
+    text-decoration: none;
+}
+.Referrals  span[class^="icon"] {
+    color: #f03e81;
+}
+.Referrals span.title {
+    font-size: 12px;
+    line-height: 30px;
+    color: #0349c6;
+    text-transform: uppercase;
+}
+.Referrals span[class^=down] {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0349c6;
+}
+.Referrals .data .click {
+    background-color: #eaeff9;
+    border: 1px solid #cfdaf1;
+}
+.Referrals .data .click a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #012c7a;
+}
+.Referrals .data2 span.name {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #012c7a;
+}
+.Referrals .data2 a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #012c7a;
+}
+.Referrals .data2 {
+    background-color: #ffffff;
+}
+.Referrals .ReferralsBlock1 {
+    background-color: #f3f7ff;
+}
+.Referrals .ReferralsBlock2 {
+    background-color: #f3f7ff;
+}
+.Referrals .ReferralsBlock3 {
+    background-color: #f3f7ff;
+}
+.Referrals .ListStatistic {
+    background-color: #ffffff;
+}
+.Referrals .ListStatistic label[class^="up"] {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #012c7a;
+}
+.Referrals .ListStatistic span[class^="up"] {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #012c7a;
+}
+.Referrals .ListStatistic select {
+    font-size: 16px;
+    line-height: 30px;
+    color: #012c7a;
+    background-color: #eaeff9;
+    border: 1px solid #cfdaf1;
+}
+.Referrals .ListStatistic .DataUser  {
+    font-size: 14px;
+    line-height: 50px;
+    color: #012c7a;
+}
+.Referrals .ListStatistic .DataUser2 {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #4194ff;
+}
+.Referrals .ListStatistic .DataUser3 {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #de1c6e;
+}
+.Referrals .ListStatistic li {
+    border: 1px dotted #bccae0;
+}
+.Referrals .ListStatistic2 {
+    background-color: #ffffff;
+}
+.Referrals .ListStatistic2 select {
+    font-size: 16px;
+    line-height: 30px;
+    color: #012c7a;
+    background-color: #eaeff9;
+    border: 1px solid #cfdaf1;
+}
+.Referrals .ListStatistic2 label[class^="up"] {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #012c7a;
+}
+.Referrals .ListStatistic2 span[class^="up"] {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #012c7a;
+}
+.Referrals .ListStatistic2 li {
+    border: 1px dotted #bccae0;
+}
+.ListStatistic2 .Accordion a  {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #4194ff;
+}
+.ListStatistic2 .Accordion span.icon-triangleDown {
+    color: #4194ff;
+}
+.ListStatistic2 .Accordion a.open {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #de1c6e;
+}
+.ListStatistic2 .Accordion .content span {
+    font-size: 14px;
+    line-height: 50px;
+    color: #012c7a;
+}
+.ListStatistic2 .Accordion .content span.ones {
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #de1c6e;
+}
+.ListStatistic2 .Mail a {
+    font-size: 14px;
+    line-height: 50px;
+    color: #012c7a;
+}
+.ListStatistic2 .Status span {
+    font-size: 14px;
+    line-height: 50px;
+    color: #de1c6e;
 }
