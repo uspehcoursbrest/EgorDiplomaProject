@@ -117,6 +117,7 @@ header .Menu a {
     background-color: #e0186c;
     border: none;
     width: 230px;
+    height: 65px;
     font-weight: 700;
 }
 .Banner .Social a {
@@ -637,6 +638,10 @@ header a {
 .StatisticAccount {
     background-color: #eaeff9;
 }
+.StatisticAccount .men {
+    width: 45px;
+    height: 45px;
+}
 .Referrals {
     background-color: #d6dff2;
 }
@@ -715,6 +720,10 @@ header a {
     line-height: 84px;
     font-weight: 700;
     color: #0349c6;
+}
+.Referrals .men2 {
+    width: 60px;
+    height: 60px;
 }
 .Referrals .data {
     background-color: #ffffff;
