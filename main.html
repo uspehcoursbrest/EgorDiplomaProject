@@ -9,21 +9,22 @@
     <link rel="stylesheet" href="css/Styles.css">
 </head>
 <body>
-<header>
-    <div class="container">
-        <div class="Logo">
+<header class="clear">
+    <div class="container ">
+        <div class="clear">
+        <div class="logo">
             <a href="">
                 <img src="img/png/logo.png" alt="log1">
                 <span class="title">I-Forex</span>
                 <span class="description">Group Limited</span>
             </a>
         </div>
-        <div class="DataTime">
+        <div class="dataTime ">
             <span class="icon-time"></span>
             <span class="time">20 : 47 : 18</span>
             <span class="date">05/09 2018</span>
         </div>
-        <div class="Input">
+        <div class="input ">
             <a href="">
                 <span class="icon-lock"></span>
                 <span>Login</span>
@@ -31,9 +32,10 @@
                 <span>Register</span>
             </a>
         </div>
-        <div class="Menu">
+        </div>
+        <div class="menu">
             <ul>
-                <li><a href=""><span>HOME</span></a></li>
+                <li><a href="" class="active"><span>HOME</span></a></li>
                 <li><a href=""><span>ABOUT US</span></a></li>
                 <li><a href=""><span>AFFILATE</span></a></li>
                 <li><a href=""><span>PLANS</span></a></li>
@@ -46,56 +48,60 @@
         </div>
     </div>
 </header>
-<div class="Banner">
+<div class="banner">
     <div class="container">
-        <div class="InfoContent">
+        <div class="infoContent">
             <h1>Innovation</h1>
             <span>in forex trading</span>
             <p>A distinguished reputation, innovative approach and profitable working conditions are our main advantages
                 and this is why we're the choice of over one million clients.</p>
         </div>
-        <div class="But">
+        <div class="but">
             <button>
                 <span>Invest now</span>
                 <span class="icon-rightArrow"></span>
             </button>
         </div>
-        <div class="Social">
+        <div class="social">
             <a href=""><span class="icon-soc3"></span></a>
             <a href=""><span class="icon-soc1"></span></a>
             <a href=""><span class="icon-soc2"></span></a>
             <span class="title">we on social media</span>
         </div>
-        <div class="StatisticBlock">
-            <div class="card1">
+        <div class="statisticBlock">
+            <div class="card">
                 <span class="icon-btc"></span>
                 <span class="btc">Bitcoin (BTC):</span>
-                <span class="dollar">7 406,62 USD</span>
-                <span class="percent">10,21%</span>
+                <br><span class="dollar">7 406,62 USD</span>
+                <br><span class="percent">10,21%</span>
                 <span class="icon-triangleTop"></span>
             </div>
-            <div class="card2">
+            <div class="card">
                 <span class="icon-eth"></span>
                 <span class="eth">Ethereum (ETH):</span>
-                <span class="dollar">498,21 USD</span>
-                <span class="percent">5,33%</span>
+                <br><span class="dollar">498,21 USD</span>
+                <br><span class="percent">5,33%</span>
                 <span class="icon-triangleTop"></span>
             </div>
-            <div class="card3">
+            <div class="card">
                 <span class="icon-ltc"></span>
                 <span class="ltc">Litecoin (LTC):</span>
-                <span class="dollar">91,19 USD</span>
-                <span class="percent1">9,05%</span>
+                <br><span class="dollar">91,19 USD</span>
+                <br><span class="percent1">9,05%</span>
                 <span class="icon-triangleDown"></span>
             </div>
         </div>
     </div>
 </div>
-<div class="Info">
+<div class="info">
     <div class="container">
-        <div class="Accordion">
-            <a href="#">About Company</a>
-            <div class="content">
+        <ul class="tabs">
+            <li><a href="#" class="active">About Company</a></li>
+            <li><a href="#">Our Documents</a></li>
+            <li><a href="#">Our Advantages</a></li>
+        </ul>
+        <div class="content">
+            <div class="accordion">
                 <h2>About I-FOREX Group Limited</h2>
                 <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut eu aliquet dui orci varius
                     natoque
@@ -110,54 +116,63 @@
                     Phasellus nec augue at nibh ultrices semper. Pellentesque feugiat diam dolor, pulvinar gravida
                     diam convallis scelerisque. Aenean sollicitudin aliquet massa, at dignissim mi sagittis in.</p>
             </div>
-            <a href="">Our Documents</a>
-            <div class="content"></div>
-            <a href="">Our Advantages</a>
-            <div class="content"></div>
-        </div>
-        <div class="But2">
-            <button>More About Us</button>
+            <div class="but2">
+                <button>More About Us</button>
+            </div>
         </div>
     </div>
 </div>
-<div class="Tarif">
+<div class="tarif">
     <div class="container">
-        <div class="card1">
+        <div class="card">
             <a href="">
                 <span class="icon-rangePlanet">
                     <span class="path1"></span>
                     <span class="path2"></span>
                 </span>
-                <span class="title">Classic plan</span>
-                <span class="percent">7% Daily</span>
-                <span class="day">For 20 Days</span>
+                <span class="title"><br>Classic plan</span>
+                <span class="percent"><br>7% Daily</span>
+                <span class="day"><br>For 20 Days</span>
             </a>
         </div>
-        <div class="card2">
+        <div class="card">
             <a href="">
                 <span class="icon-diomond">
                     <span class="path1"></span>
                     <span class="path2"></span>
                 </span>
-                <span class="title">Royal plan</span>
-                <span class="percent">8% Daily</span>
-                <span class="day">For 20 Days</span>
+                <span class="active"><br>Royal plan</span>
+                <span class="percent"><br>8% Daily</span>
+                <span class="day"><br>For 20 Days</span>
             </a>
-            <div class="contentcard">
-                <div class="PlanBlock">
-                    <h3>Royal plan</h3>
-                    <div class="ulplan1">
+        </div>
+        <div class="card">
+            <a href="">
+                <span class="icon-peopleSetting">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                </span>
+                <span class="title"><br>Expert plan</span>
+                <span class="percent"><br>10% Daily</span>
+                <span class="day"><br>For 12 Days</span>
+            </a>
+        </div>
+        <div class="contentcard">
+            <div class="accordion">
+                <h3>Royal plan</h3>
+                <div class="planBlock">
+                    <div class="ulplan">
                         <span>Deposit:</span>
                         <span class="title">Included</span>
-                        <span>Accruals:</span>
+                        <span><br>Accruals:</span>
                         <span class="title">7 days of week</span>
-                        <span>Withdrawals:</span>
+                        <span><br>Withdrawals:</span>
                         <span class="title">Instant</span>
                     </div>
                     <div class="ulplan2">
-                        <span class="min">Minimal — Maximal Deposit:</span>
-                        <span class="dollar">1,501 $ — 25,000 $</span>
-                        <span class="min">Min. Cashout:</span>
+                        <span class="min"><br>Minimal — Maximal Deposit:</span>
+                        <span class="dollar"><br>1,501 $ — 25,000 $</span>
+                        <span class="min"><br>Min. Cashout:</span>
                         <span class="price">1 $</span>
                         <span class="payMents">(PM, PAYEER)</span>
                         <span class="price">3 $</span>
@@ -165,22 +180,24 @@
                     </div>
                     <div class="ulplan3">
                         <span class="profit">DAILY PROFIT:</span>
-                        <span class="percent">8%</span>
+                        <span class="percent"><br>8%</span>
                     </div>
                     <div class="ulplan4">
                         <span class="profit">TOTAL PROFIT:</span>
-                        <span class="percent">160%</span>
+                        <span class="percent"><br>160%</span>
                     </div>
                 </div>
-                <div class="ListPlan">
+                <div class="listPlan clear">
                     <form action="#">
                         <div class="item">
                             <label for="cash">Enter amount:</label>
-                            <input type="text" name="cash" id="cash"><span>$</span>
+                            <br><input type="text" name="cash" id="cash"><span>$</span>
+                        </div>
+                        <div class="item">
                             <label for="plan2">Select plan:</label>
-                            <select name="plan2" id="plan2">
-                                <option value="8% Daily For 20 Day">8% Daily For 20 Day</option>
-                            </select>
+                            <br><select name="plan2" id="plan2">
+                            <option value="8% Daily For 20 Day">8% Daily For 20 Day</option>
+                        </select>
                         </div>
                     </form>
                 </div>
@@ -190,11 +207,11 @@
                     <input type="text" name="name" id="name">
                     <span>100000</span>
                 </div>
-                <div class="YourProfit">
+                <div class="yourProfit">
                     <span>Your profit:</span>
-                    <span class="dollar">4235.00$</span>
+                    <span class="dollar"><br>4235.00$</span>
                 </div>
-                <div class="But">
+                <div class="but">
                     <button>
                         <span>Invest now</span>
                         <span class="icon-rightArrow"></span>
@@ -202,22 +219,11 @@
                 </div>
             </div>
         </div>
-        <div class="card3">
-            <a href="">
-                <span class="icon-peopleSetting">
-                    <span class="path1"></span>
-                    <span class="path2"></span>
-                </span>
-                <span class="title">Expert plan</span>
-                <span class="percent">10% Daily</span>
-                <span class="day">For 12 Days</span>
-            </a>
-        </div>
     </div>
 </div>
-<div class="Video">
+<div class="video">
     <div class="container">
-        <div class="VideoGraph">
+        <div class="videoGraph">
             <h2>I-FOREX Group Limited Video</h2>
             <span class="title">i-FOREX Group Limited Video</span>
             <img src="img/jpg/video.jpg" alt="">
@@ -227,39 +233,40 @@
 </div>
 <div class="statistic">
     <div class="container">
-        <div class="statisticWebsite1">
+        <div class="statisticWebsite">
             <span class="icon-galocha2"></span>
-            <span class="number">350</span>
-            <span class="title">Online Days</span>
+            <br><span class="number">350</span>
+            <br><span class="title">Online Days</span>
         </div>
-        <div class="statisticWebsite2">
+        <div class="statisticWebsite">
             <span class="icon-galocha2"></span>
-            <span class="number">20320</span>
-            <span class="title">Total Visitors</span>
+            <br><span class="number">20320</span>
+            <br><span class="title">Total Visitors</span>
         </div>
-        <div class="statisticWebsite3">
+        <div class="statisticWebsite">
             <span class="icon-galocha2"></span>
-            <span class="number">3750</span>
-            <span class="title">Total Users</span>
+            <br><span class="number">3750</span>
+            <br><span class="title">Total Users</span>
         </div>
-        <div class="statisticWebsite4">
-            <span class="icon-galocha2"></span>
-            <span class="number">$360550</span>
-            <span class="title">Total Deposits</span>
+        <div class="item">
+            <div class="statisticWebsite4">
+                <span class="icon-galocha2"></span>
+                <br><span class="number">$360550</span>
+                <br><span class="title">Total Deposits</span>
+            </div>
+            <div class="statisticWebsite5">
+                <span class="icon-galocha2"></span>
+                <br><span class="number">$230890</span>
+                <br><span class="title">Total Withdrawals</span>
+            </div>
         </div>
-        <div class="statisticWebsite5">
-            <span class="icon-galocha2"></span>
-            <span class="number">$230890</span>
-            <span class="title">Total Withdrawals</span>
-        </div>
-
     </div>
 </div>
-<div class="Deposit">
+<div class="deposit">
     <div class="container">
-        <div class="listDeposit">
+        <div class="listDeposit clear">
             <h2>Last deposit/Withdrawals</h2>
-            <div class="oneList">
+            <div class="oneList ">
                 <ul>
                     <li>
                         <span class="title">kacemtrans</span>
@@ -408,13 +415,13 @@
                     </li>
                 </ul>
             </div>
-            <div class="But2">
+            <div class="but2">
                 <button>More Info</button>
             </div>
         </div>
     </div>
 </div>
-<div class="Advantages">
+<div class="advantages">
     <div class="container">
         <h3>Referral rate</h3>
         <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nunc eros, malesuada id nunc
@@ -424,7 +431,7 @@
         <p>Sed at purus in mi congue tristique sed eget nunc. Phasellus nec augue at nibh ultrices semper.</p>
         <span class="persent1">7%</span>
         <span class="persent2">1%</span>
-        <div class="But">
+        <div class="but">
             <button>Invest now</button>
         </div>
     </div>
@@ -439,8 +446,8 @@
             <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu aliquet dui. Orci varius
                 natoque penatibus
                 et magnis dis parturient montes.</p>
-            <div class="But2">
-            <button>Read More</button>
+            <div class="but2">
+                <button>Read More</button>
             </div>
         </div>
         <div class="list2">
@@ -450,8 +457,8 @@
             <p class="title">Aenean sollicitudin aliquet massa, at dignissim mi sagittis in. Sed aliquet sit amet quam
                 eget faucibus.
                 Donec porta placerat posuere.</p>
-            <div class="But2">
-            <button>Read More</button>
+            <div class="but2">
+                <button>Read More</button>
             </div>
         </div>
         <div class="list3">
@@ -461,7 +468,7 @@
             <p class="title">Pellentesque feugiat diam dolor, pulvinar gravida diam convallis scelerisque. Aenean
                 sollicitudin aliquet
                 massa, at dignissim mi sagittis in.</p>
-            <div class="But2">
+            <div class="but2">
                 <button>Read More</button>
             </div>
         </div>
@@ -477,7 +484,7 @@
     </div>
 </div>
 <footer>
-    <div class="conteiner">
+    <div class="container">
         <div class="data">
             <span>ADRESS:</span>
             <a href="">England, London, N1 7GU, 20-22 Wenlock road</a>
@@ -496,29 +503,29 @@
                 <span>All rights reserved.</span>
             </div>
         </div>
-    </div>
-    <div class="contact">
-        <span>Facebook:</span>
-        <a href="">https://www.facebook.com/ i-forexgroup</a>
-        <span>SKYPE:</span>
-        <a href="skype:i-forexgroupchat">i-forexgroup</a>
-        <span>TELEGRAM:</span>
-        <a href="tel:+44 7911 123-456">+44 7911 123-456</a>
-    </div>
-    <div class="menuFooter">
-        <a href=""></a>
-        <span></span>
-        <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT US</a></li>
-            <li><a href="">AFFILATE</a></li>
-            <li><a href="">PLANS</a></li>
-            <li><a href="">NEWS</a></li>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">RATE US</a></li>
-            <li><a href="">RULES</a></li>
-            <li><a href="">CONTACT US</a></li>
-        </ul>
+        <div class="contact">
+            <span>Facebook:</span>
+            <a href="">https://www.facebook.com/ i-forexgroup</a>
+            <span>SKYPE:</span>
+            <a href="skype:i-forexgroupchat">i-forexgroup</a>
+            <span>TELEGRAM:</span>
+            <a href="tel:+44 7911 123-456">+44 7911 123-456</a>
+        </div>
+        <div class="menuFooter">
+            <a href=""></a>
+            <span></span>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">AFFILATE</a></li>
+                <li><a href="">PLANS</a></li>
+                <li><a href="">NEWS</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">RATE US</a></li>
+                <li><a href="">RULES</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </div>
     </div>
 </footer>
 </body>
