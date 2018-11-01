@@ -19,7 +19,7 @@ ul {
 }
 
 .container {
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -28,6 +28,14 @@ ul {
     content: "";
     display: block;
     clear: both;
+}
+
+[class*="icon"] {
+    position: relative;
+}
+
+[class*="icon"] [class*='path'] {
+    position: absolute;
 }
 
 header {
@@ -840,11 +848,31 @@ header a {
     color: #ffffff;
     background-color: #2f7bde;
 }
-
+header .logo {
+    float: left;
+    width: 184px;
+}
+header .menu {
+    width: auto;
+}
+header .socLink {
+    float: right;
+    width: 160px;
+}
+header .menu li {
+    display: inline-block;
+    padding-left: 50px;
+}
 .statisticAccount {
     background-color: #eaeff9;
 }
-
+.statisticAccount .info li {
+    display: inline-block;
+    padding-left: 55px;
+}
+.statisticAccount .info span.data {
+    display: block;
+}
 .statisticAccount .men {
     width: 45px;
     height: 45px;
@@ -899,7 +927,6 @@ header a {
     font-weight: 700;
     color: #0349c6;
 }
-
 .statisticAccount .balance .But2 button {
     font-size: 16px;
     line-height: 65px;
@@ -920,13 +947,18 @@ header a {
     font-size: 14px;
     line-height: 18px;
     color: #012c7a;
+    display: block;
 }
-
+.manyCards .card {
+    float: left;
+    width: 20%;
+}
 .statisticAccount .card span.dollars {
     font-size: 16px;
     line-height: 18px;
     font-weight: 700;
     color: #2f7bde;
+    display: block;
 }
 
 .statisticAccount .card span.money {
@@ -934,6 +966,7 @@ header a {
     line-height: 18px;
     font-weight: 700;
     color: #de1c6e;
+    display: block;
 }
 
 .referrals h1 {

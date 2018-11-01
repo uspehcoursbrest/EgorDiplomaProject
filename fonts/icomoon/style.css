@@ -33,7 +33,7 @@
 }
 .icon-people .path2:before {
   content: "\e901";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(3, 73, 198);
 }
 .icon-planet .path1:before {
@@ -42,7 +42,7 @@
 }
 .icon-planet .path2:before {
   content: "\e903";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(3, 73, 198);
 }
 .icon-dollarPeople .path1:before {
@@ -51,7 +51,7 @@
 }
 .icon-dollarPeople .path2:before {
   content: "\e905";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(3, 73, 198);
 }
 .icon-range .path1:before {
@@ -60,7 +60,7 @@
 }
 .icon-range .path2:before {
   content: "\e907";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(3, 73, 198);
 }
 .icon-circle .path1:before {
@@ -69,7 +69,7 @@
 }
 .icon-circle .path2:before {
   content: "\e909";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(255, 255, 255);
 }
 .icon-rangePlanet .path1:before {
@@ -78,7 +78,7 @@
 }
 .icon-rangePlanet .path2:before {
   content: "\e90b";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(3, 73, 198);
 }
 .icon-twoLine .path1:before {
@@ -87,7 +87,7 @@
 }
 .icon-twoLine .path2:before {
   content: "\e90d";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(224, 24, 108);
 }
 .icon-peopleSetting .path1:before {
@@ -96,7 +96,7 @@
 }
 .icon-peopleSetting .path2:before {
   content: "\e90f";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(224, 24, 108);
 }
 .icon-star .path1:before {
@@ -105,7 +105,7 @@
 }
 .icon-star .path2:before {
   content: "\e911";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(224, 24, 108);
 }
 .icon-diomond .path1:before {
@@ -114,7 +114,7 @@
 }
 .icon-diomond .path2:before {
   content: "\e913";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(224, 24, 108);
 }
 .icon-maps .path1:before {
@@ -123,7 +123,7 @@
 }
 .icon-maps .path2:before {
   content: "\e915";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(3, 73, 198);
 }
 .icon-phone .path1:before {
@@ -132,7 +132,7 @@
 }
 .icon-phone .path2:before {
   content: "\e917";
-  margin-left: -1em;
+  /*margin-left: -1em;*/
   color: rgb(224, 24, 108);
 }
 .icon-mail .path1:before {
@@ -141,8 +141,8 @@
 }
 .icon-mail .path2:before {
   content: "\e919";
-  margin-left: -1em;
-  color: rgb(3, 73, 198);
+  /*margin-left: -1em;*/
+  /*color: rgb(3, 73, 198);*/
 }
 .icon-time:before {
   content: "\e91a";
