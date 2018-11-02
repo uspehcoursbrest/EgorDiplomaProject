@@ -39,17 +39,25 @@ ul {
 }
 
 header {
-    background-color: #023ba2;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1900px;
+    height: 990px;
 }
 
-header .logo .title {
+header {
+    background-color: #eaeff9;
+}
+
+header .logo .imgText span.title {
     font-size: 37px;
     line-height: 84px;
     font-weight: bold;
     color: #ffffff;
+    display: block;
 }
 
-header .logo .description {
+header .logo .imgText span:last-child {
     font-size: 13px;
     line-height: 84px;
     color: #ffffff;
@@ -104,30 +112,26 @@ header .menu a {
 header .menu a.active {
     color: #f12f77;
 }
+
 header .logo {
-    width: 25%;
+    width: 225px;
     float: left;
 }
-header .datatime {
-    width: 25%;
+
+header .dataTime {
+    width: 320px;
     float: right;
 }
+
 header .input {
-    width: 25%;
+    width: 275px;
     float: right;
 }
+
 .menu li {
     display: inline-block;
-    padding-left: 70px;
-
-}
-
-.banner {
-    background-color: #023ba3;
-}
-
-.banner .statisticBlock {
-    background-color: #ffffff;
+    margin-left: 40px;
+    margin-bottom: 30px;
 }
 
 .banner .infoContent h1 {
@@ -135,6 +139,7 @@ header .input {
     line-height: 84px;
     color: #ffffff;
     font-weight: 700;
+    margin-bottom: 32px;
 }
 
 .banner .infoContent span {
@@ -148,6 +153,7 @@ header .input {
     font-size: 20px;
     line-height: 33px;
     color: #96c2ff;
+    margin-top: 80px;
 }
 
 .but button {
@@ -160,6 +166,7 @@ header .input {
     width: 230px;
     height: 65px;
     font-weight: 700;
+    margin-top: 92px;
 }
 
 .banner .social a {
@@ -177,6 +184,17 @@ header .input {
     font-weight: 700;
     color: #2f7bde;
     text-transform: uppercase;
+}
+
+.banner .statisticBlock .in {
+    position: relative;
+}
+
+.banner .statisticBlock span:first-child {
+    display: block;
+    position: absolute;
+    left: -35px;
+    bottom: 50%;
 }
 
 .statisticBlock span:first-child {
@@ -210,14 +228,22 @@ header .input {
     font-weight: 700;
     color: #e0186c;
 }
+
 .statisticBlock span.icon-triangleTop {
     color: #4194ff;
 }
 
 .statisticBlock .card {
     display: inline-block;
-
+    padding-left: 13px;
+    margin-left: 70px;
 }
+
+.banner .statisticBlock {
+    margin-left: 425px;
+    margin-bottom: 15px;
+}
+
 .statisticBlock .card span.icon-triangleDown {
     color: #e0186c;
 }
@@ -242,6 +268,9 @@ header .input {
     font-weight: 700;
 }
 
+.info {
+    background-color: #eaeff9;
+}
 .info .accordion h2 {
     font-size: 50px;
     line-height: 84px;
@@ -273,13 +302,46 @@ header .input {
     font-weight: 700;
 }
 
+.info ul.tabs {
+    width: 325px;
+    float: left;
+    margin-top: 150px;
+}
+
+.info .content {
+    width: calc(100% - 325px);
+    float: right;
+    margin-top: 80px;
+}
+
 .tarif {
-    background-color: #01338f;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1900px;
+    height: 1200px;
+}
+
+.tarif .cards .in {
+    position: relative;
+}
+
+.tarif .cards span[class^="icon-"] {
+    display: block;
+    position: absolute;
+    left: -80px;
+    bottom: 50%;
+
 }
 
 .tarif .card {
     display: inline-block;
-    padding-left: 175px;
+    width: 230px;
+    margin-left: 155px;
+    margin-top: 40px;
+}
+
+.tarif .card span.title {
+    padding-top: 20px;
 }
 
 .tarif .card span[class^=icon] {
@@ -295,6 +357,7 @@ header .input {
     line-height: 84px;
     font-weight: 700;
     color: #0349c6;
+
 }
 
 .tarif .card span.active {
@@ -315,6 +378,15 @@ header .input {
     font-size: 13px;
     line-height: 24px;
     color: #e0186c;
+}
+
+.tarif .contentcard {
+    margin-top: 100px;
+}
+
+.tarif .contentcard .planBlock {
+    margin-top: 102px;
+
 }
 
 .tarif .contentcard h3 {
@@ -435,6 +507,7 @@ header .input {
 .contentcard .calculator {
     text-align: center;
 }
+
 .contentcard .calculator input {
     background-color: #e0186c;
     width: 630px;
@@ -446,9 +519,11 @@ header .input {
     color: #82adf1;
     font-weight: 300;
 }
+
 .contentcard .yourProfit {
     text-align: center;
 }
+
 .contentcard .yourProfit span:first-child {
     font-size: 15px;
     line-height: 55px;
@@ -487,6 +562,7 @@ header .input {
     line-height: 84px;
     font-weight: 700;
     color: #0349c6;
+    margin-top: 155px;
 }
 
 .video .videoGraph span.title {
@@ -554,27 +630,58 @@ header .input {
     line-height: 21px;
     font-weight: 700;
 }
+
 .statistic .statisticWebsite {
     display: inline-block;
     text-align: left;
-    margin-left: 15px;
+    margin-left: 100px;
+    margin-bottom: 50px;
 }
+
 .statistic .statisticWebsite4 {
     display: inline-block;
-
+    float: right;
+    margin-left: 100px;
 }
+
+.statistic .ops .in {
+    position: relative;
+}
+
+.statistic .ops span[class^="icon"] {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 15px;
+}
+
 .statistic .statisticWebsite5 {
     display: inline-block;
-
+    float: right;
 }
-.listDeposit .oneList {
+
+.deposit {
+    margin-top: 445px;
+}
+
+.deposit .table {
+    width: 100%;
+    display: table;
+}
+
+.deposit .oneList,
+.deposit .twoList {
+    display: table-cell;
     width: 50%;
-    float: left;
+    vertical-align: middle;
+}
+
+.listDeposit .oneList {
+    text-align: center;
 }
 
 .listDeposit .twoList {
-    width: 50%;
-    float: left;
+    text-align: center;
 }
 
 .deposit .listDeposit h2 {
@@ -582,6 +689,7 @@ header .input {
     line-height: 84px;
     font-weight: 700;
     color: #0349c6;
+    padding-bottom: 110px;
 }
 
 .deposit .oneList span.title {
@@ -643,8 +751,16 @@ header .input {
 .deposit .but2 {
     text-align: center;
 }
+
 .advantages {
-    background-color: #023fad;
+    background-color: #ffffff;
+}
+
+.advantages {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1900px;
+    height: 705px;
 }
 
 .advantages h3 {
@@ -653,6 +769,8 @@ header .input {
     font-weight: 700;
     color: #ffffff;
     text-align: center;
+    padding-top: 100px;
+
 }
 
 .advantages p.title {
@@ -660,6 +778,7 @@ header .input {
     line-height: 33px;
     font-weight: 300;
     color: #ffffff;
+    text-align: center;
 }
 
 .advantages p:not(.title) {
@@ -683,6 +802,14 @@ header .input {
 
 .advantages .but {
     text-align: center;
+
+}
+
+.advantages .block {
+    width: 50%;
+    float: left;
+    margin-top: 140px;
+    text-align: center;
 }
 
 .news h2 {
@@ -690,6 +817,8 @@ header .input {
     line-height: 84px;
     font-weight: 700;
     color: #0349c6;
+    padding-top: 120px;
+    padding-bottom: 130px;
 }
 
 .news p:first-child {
@@ -715,8 +844,59 @@ header .input {
     color: #012c7a;
 }
 
+.news .list {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.payments img {
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+footer .table {
+    width: 100%;
+    display: table;
+}
+
+footer .data,
+footer .logo,
+footer .contact {
+    display: table-cell;
+    width: 33.3333%;
+    vertical-align: top;
+}
+
+footer .data a {
+    display: block;
+    text-align: left;
+}
+
+footer .logo {
+    text-align: center;
+}
+
+footer .logo span {
+    display: block;
+}
+
+footer .logo span.title {
+    margin-bottom: -50px;
+}
+
+footer .contact a {
+    display: block;
+}
+
+footer .contact {
+    text-align: right;
+}
+
 footer {
-    background-color: #023ba2;
+    background-color: #0347c2;
 }
 
 .menuFooter li {
@@ -823,7 +1003,7 @@ header a {
 
 .right header .logo span.title {
     font-size: 30px;
-    line-height: 68px;
+    line-height: 7px;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
@@ -831,7 +1011,7 @@ header a {
 
 .right header .logo span:last-child {
     font-size: 11px;
-    line-height: 68px;
+    line-height: 39px;
     text-transform: uppercase;
     color: #ffffff;
 }
@@ -848,31 +1028,43 @@ header a {
     color: #ffffff;
     background-color: #2f7bde;
 }
+
 header .logo {
     float: left;
     width: 184px;
 }
+
 header .menu {
     width: auto;
 }
+
 header .socLink {
     float: right;
     width: 160px;
 }
+
+header .socLink a {
+    color: #ffffff;
+}
+
 header .menu li {
     display: inline-block;
-    padding-left: 50px;
+    padding-left: 30px;
 }
+
 .statisticAccount {
     background-color: #eaeff9;
 }
+
 .statisticAccount .info li {
     display: inline-block;
     padding-left: 55px;
 }
+
 .statisticAccount .info span.data {
     display: block;
 }
+
 .statisticAccount .men {
     width: 45px;
     height: 45px;
@@ -927,6 +1119,7 @@ header .menu li {
     font-weight: 700;
     color: #0349c6;
 }
+
 .statisticAccount .balance .But2 button {
     font-size: 16px;
     line-height: 65px;
@@ -949,10 +1142,12 @@ header .menu li {
     color: #012c7a;
     display: block;
 }
+
 .manyCards .card {
     float: left;
     width: 20%;
 }
+
 .statisticAccount .card span.dollars {
     font-size: 16px;
     line-height: 18px;
