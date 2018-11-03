@@ -49,18 +49,41 @@ header {
     background-color: #eaeff9;
 }
 
-header .logo .imgText span.title {
-    font-size: 37px;
-    line-height: 84px;
-    font-weight: bold;
-    color: #ffffff;
-    display: block;
+header .logo {
+    padding-left: 60px;
+    width: 235px;
+    position: relative;
+    float: left;
 }
 
-header .logo .imgText span:last-child {
-    font-size: 13px;
-    line-height: 84px;
+header .logo img {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -24px;
+    width: 55px;
+    height: auto;
+
+}
+
+header .logo .txt span {
+    display: block;
+    font-family: "Monda";
+    text-transform: uppercase;
     color: #ffffff;
+}
+
+header .logo .txt span:first-child {
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+header .logo .txt span:last-child {
+    padding-left: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+    /*letter-spacing: 0.33em;*/
 }
 
 header .logo a {
@@ -113,19 +136,18 @@ header .menu a.active {
     color: #f12f77;
 }
 
-header .logo {
-    width: 225px;
-    float: left;
-}
-
 header .dataTime {
     width: 320px;
     float: right;
+    padding-left: 35px;
+
 }
 
 header .input {
     width: 275px;
     float: right;
+    padding-left: 55px;
+    margin-top: 5px;
 }
 
 .menu li {
@@ -241,7 +263,7 @@ header .input {
 
 .banner .statisticBlock {
     margin-left: 425px;
-    margin-bottom: 15px;
+    margin-top: 140px;
 }
 
 .statisticBlock .card span.icon-triangleDown {
@@ -271,11 +293,13 @@ header .input {
 .info {
     background-color: #eaeff9;
 }
+
 .info .accordion h2 {
     font-size: 50px;
     line-height: 84px;
     font-weight: 700;
     color: #0349c6;
+    padding-bottom: 72px;
 }
 
 .info .accordion p.title {
@@ -283,14 +307,32 @@ header .input {
     line-height: 30px;
     font-weight: 500;
     color: #012c7a;
+    padding-bottom: 48px;
 }
 
 .info .accordion p {
     font-size: 16px;
     line-height: 30px;
     color: #012c7a;
+    padding-bottom: 48px;
 }
-
+.tabs .in {
+    position: relative;
+}
+.tabs .but2 button {
+    display: block;
+    position: absolute;
+    left: -38px;
+    top: 90px;
+    font-size: 16px;
+    line-height: 53px;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    background-color: #2f7bde;
+    border: none;
+    font-weight: 700;
+}
 .but2 button {
     font-size: 16px;
     line-height: 53px;
@@ -302,7 +344,7 @@ header .input {
     font-weight: 700;
 }
 
-.info ul.tabs {
+.info .tabs {
     width: 325px;
     float: left;
     margin-top: 150px;
@@ -572,9 +614,24 @@ header .input {
     color: rgba(3, 73, 198, 0.11)
 }
 
-.video span[class^=icon] {
-    font-size: 13px;
-    color: #1a59cb;
+.video .in  {
+    position: relative;
+}
+
+.video .videoGraph a {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+    margin: auto;
+    text-decoration: none;
+}
+
+.video .videoGraph span.icon-power {
+    font-size: 95px;
+    line-height: 95px;
+    color: #ffffff;
 }
 
 .video .statisticWebsite4 span:first-child {
@@ -849,7 +906,6 @@ header .input {
     float: left;
     text-align: center;
 }
-
 .payments img {
     text-align: center;
     padding-left: 50px;
@@ -868,6 +924,7 @@ footer .contact {
     display: table-cell;
     width: 33.3333%;
     vertical-align: top;
+    padding-top: 40px;
 }
 
 footer .data a {
@@ -896,7 +953,12 @@ footer .contact {
 }
 
 footer {
-    background-color: #0347c2;
+    background-color: #0348c5;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 150px;
+    width: 1920px;
+    height: 550px;
 }
 
 .menuFooter li {
