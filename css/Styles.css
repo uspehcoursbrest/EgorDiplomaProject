@@ -155,7 +155,7 @@ header .input {
     margin-top: 5px;
 }
 
-.menu li {
+header .menu li {
     display: inline-block;
     margin-left: 40px;
     margin-bottom: 30px;
@@ -228,6 +228,7 @@ header .input {
 .statisticBlock span:first-child {
     color: #012c7a;
     font-size: 36px;
+    background-color: #fff;
 }
 
 .statisticBlock span:nth-child(2) {
@@ -368,9 +369,8 @@ header .input {
 .tarif {
     background-repeat: no-repeat;
     background-position: center;
-
-
-
+    background-color: #eaeff9;
+    margin-bottom: -155px;
 }
 
 .tarif .cards .in {
@@ -613,7 +613,11 @@ header .input {
     color: #0349c6;
     margin-top: 155px;
 }
-
+.video {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
 .video .videoGraph span.title {
     font-size: 50px;
     line-height: 84px;
@@ -639,6 +643,7 @@ header .input {
     font-size: 95px;
     line-height: 95px;
     color: #ffffff;
+    box-shadow:  0px 0px 33px 51px rgba(0,7,49,0.55);
 }
 
 .video .statisticWebsite4 span:first-child {
@@ -648,7 +653,10 @@ header .input {
 .video .statisticWebsite5 span:first-child {
     color: #de1c6e;
 }
-
+.statistic {
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .statistic span[class^="icon"] {
     color: #044ac6;
 }
@@ -816,15 +824,13 @@ header .input {
     text-align: center;
 }
 
-.advantages {
-    background-color: #ffffff;
-}
+
 
 .advantages {
     background-repeat: no-repeat;
     background-position: center;
-    width: 1900px;
-    height: 705px;
+
+
 }
 
 .advantages h3 {
@@ -884,7 +890,9 @@ header .input {
     padding-top: 120px;
     padding-bottom: 130px;
 }
-
+.news {
+    background-color: #fff;
+}
 .news p:first-child {
     font-size: 30px;
     line-height: 40px;
@@ -913,12 +921,14 @@ header .input {
     float: left;
     text-align: center;
 }
-
+.payments {
+    background-color: #eaeff9;
+}
 .payments img {
     text-align: center;
     padding-left: 50px;
     padding-top: 100px;
-    padding-bottom: 90px;
+    padding-bottom: 5px;
 }
 
 footer .table {
@@ -1033,6 +1043,11 @@ footer .menuFooter a {
 
 .left {
     background-color: #00256a;
+    display: block;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 200px;
 }
 
 .left a {
@@ -1044,32 +1059,42 @@ footer .menuFooter a {
 
 }
 
-.left a span:last-child {
+.left .transition a span:last-child {
     font-size: 14px;
     line-height: 120px;
     color: #ffffff;
     text-transform: uppercase;
+
 }
 
 .left .transition {
     border-bottom: 1px solid #325088;
+    position: relative;
+}
+
+.left .transition span[class^="icon"] {
+    position: relative;
+    display: inline-block;
+    bottom: 40px;
+
 }
 
 .left .copyright span {
     font-size: 13px;
-    line-height: 30px;
+    line-height: 1313px;
     color: #6f99da;
 }
 
-.right header {
+.right header.Referrals {
     background-color: #00256a;
+    padding-top: 15px;
 }
 
-header a {
+.right header.Referrals a {
     text-decoration: none;
 }
 
-.right header .logo span.title {
+.right header.Referrals .logo span.title {
     font-size: 30px;
     line-height: 7px;
     font-weight: 700;
@@ -1077,59 +1102,71 @@ header a {
     color: #ffffff;
 }
 
-.right header .logo span:last-child {
+.right header.Referrals .logo span:last-child {
     font-size: 11px;
-    line-height: 39px;
+    line-height: 20px;
     text-transform: uppercase;
     color: #ffffff;
+    letter-spacing: 0.22em;
 }
 
-.right header .menu a {
+.right header.Referrals .menu1 a {
     font-size: 15px;
     line-height: 84px;
     font-weight: 500;
     color: #ffffff;
 }
 
-.right header .wrap a {
+.right header.Referrals .wrap a span {
     font-size: 15px;
     color: #ffffff;
-    background-color: #2f7bde;
+    padding-left: 15px;
 }
 
-.right header .logo {
+.right header.Referrals .logo {
     float: left;
     width: 184px;
+    padding-top: 33px;
 }
 
-header .menu {
+.right header.Referrals {
+    height: 120px;
     width: auto;
 }
 
-header .socLink {
+.right header.Referrals .menu1 {
+    width: auto;
+}
+
+.right header.Referrals .wrap {
     float: right;
     width: 160px;
+    padding-top: 33px;
+    padding-left: 15px;
 }
 
-header .socLink a {
-    color: #ffffff;
-}
-
-header .menu li {
-    display: inline-block;
+.right header.Referrals .menu1 li {
     padding-left: 30px;
-}
-
-.statisticAccount {
-    background-color: #eaeff9;
-}
-
-.statisticAccount .info li {
     display: inline-block;
-    padding-left: 55px;
 }
 
-.statisticAccount .info span.data {
+.statisticAccount .listUser {
+    width: 50%;
+    float: left;
+}
+
+.statisticAccount .balance {
+    width: 50%;
+    float: left;
+
+}
+
+.statisticAccount .listUser ul {
+    display: inline-block;
+
+}
+
+.statisticAccount .listUser span.data {
     display: block;
 }
 
@@ -1146,20 +1183,22 @@ header .menu li {
     text-decoration: none;
 }
 
-.statisticAccount .info span {
+.statisticAccount .listUser span {
     font-size: 14px;
     line-height: 18px;
     color: #012c7a;
 }
 
-.statisticAccount .info span.data {
+.statisticAccount .listUser span.data {
     font-size: 14px;
     line-height: 18px;
     font-weight: 700;
     color: #012c7a;
 }
-
-.statisticAccount .balance .But button {
+.statisticAccount .balance {
+    position: relative;
+}
+.statisticAccount .balance .but button {
     font-size: 16px;
     line-height: 65px;
     color: #ffffff;
@@ -1168,6 +1207,10 @@ header .menu li {
     border: none;
     width: 230px;
     font-weight: 700;
+    position: absolute;
+    display: block;
+    left: -50%;
+    bottom: 60px;
 }
 
 .statisticAccount .yourbalance span:first-child {
@@ -1188,7 +1231,11 @@ header .menu li {
     color: #0349c6;
 }
 
-.statisticAccount .balance .But2 button {
+.statisticAccount .balance {
+    position: relative;
+}
+
+.statisticAccount .balance .but2 button {
     font-size: 16px;
     line-height: 65px;
     color: #ffffff;
@@ -1197,11 +1244,16 @@ header .menu li {
     border: none;
     width: 230px;
     font-weight: 700;
+    position: relative;
+    display: block;
+    bottom: 60px;
+    left: 50%;
+
 }
 
-.statisticAccount .card span[class^="icon"] {
+.statisticAccount .manyCards .card span[class^="icon"] {
     color: #012c7a;
-    background-color: #ffffff;
+
 }
 
 .statisticAccount .card span:nth-child(even) {
@@ -1432,80 +1484,95 @@ header .menu li {
     line-height: 50px;
     color: #de1c6e;
 }
+
 .right .deposit {
     background-color: #d6dff2;
 }
+
 .right .deposit .depositCard {
     background-color: #eaeff9;
 }
+
 .right .deposit h2 {
     font-size: 50px;
     line-height: 45px;
     font-weight: 700;
     color: #0349c6;
 }
+
 .depositCard .deposiImg span:last-child {
     font-size: 13px;
     line-height: 22px;
     color: #ffffff;
 }
+
 .depositCard .persentLeft span:nth-child(odd) {
     font-size: 13px;
     line-height: 15px;
     text-transform: uppercase;
     color: #f1257b;
 }
+
 .depositCard .persentLeft span:nth-child(2) {
     font-size: 90px;
     line-height: 14px;
     font-weight: 700;
     color: #e0186c;
 }
+
 .miniCards span[class^="icon"] {
     font-size: 30px;
     line-height: 32px;
     color: #de1c6e;
 }
+
 .miniCards span.title {
     font-size: 16px;
     line-height: 10px;
     color: #012c7a;
 }
+
 .miniCards .miniDate span.number {
     font-size: 16px;
     line-height: 5px;
     font-weight: 700;
     color: #012c7a;
 }
+
 .miniCards .miniOutput span.number {
     font-size: 16px;
     line-height: 10px;
     color: #2f7bde;
     font-weight: 700;
 }
+
 .miniCards .miniAmount span.number {
     font-size: 16px;
     line-height: 10px;
     color: #de1c6e;
     font-weight: 700;
 }
+
 .depositCard .progres span.title {
     font-size: 14px;
     line-height: 7px;
     color: #012c7a;
 }
+
 .depositCard .progres span.number {
     font-size: 14px;
     line-height: 8px;
     font-weight: 700;
     color: #012c7a;
 }
+
 .depositCard .persentRight span:first-child {
     font-size: 13px;
     line-height: 22px;
     text-transform: uppercase;
     color: #2f7bde;
 }
+
 .depositCard .persentRight span:last-child {
     font-size: 50px;
     line-height: 45px;
