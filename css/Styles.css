@@ -643,7 +643,7 @@ header .menu li {
     font-size: 95px;
     line-height: 95px;
     color: #ffffff;
-    box-shadow:  0px 0px 33px 51px rgba(0,7,49,0.55);
+    box-shadow:  0px 0px 51px 33px rgba(0,7,49,0.55);
 }
 
 .video .statisticWebsite4 span:first-child {
@@ -927,10 +927,14 @@ header .menu li {
 .payments img {
     text-align: center;
     padding-left: 50px;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 5px;
 }
-
+footer {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -50px;
+}
 footer .table {
     width: 100%;
     display: table;
@@ -1298,6 +1302,8 @@ footer .menuFooter a {
 
 .referrals .data {
     background-color: #ffffff;
+    height: 245px;
+    width: 680px;
 }
 
 .referrals a {
@@ -1348,20 +1354,25 @@ footer .menuFooter a {
 
 .referrals .data2 {
     background-color: #ffffff;
+    height: 245px;
+    width: 680px;
 }
 
 .referrals .referralsBlock1 {
     background-color: #f3f7ff;
 }
-
-.referrals .referralsBlock2 {
-    background-color: #f3f7ff;
+.firstData .data {
+    width: 50%;
+    float: left;
 }
-
-.referrals .referralsBlock3 {
-    background-color: #f3f7ff;
+.firstData .data2 {
+    width: 50%;
+    float: right;
 }
-
+.blockReferrals .referralsBlock {
+    width: 33%;
+    float: left;
+}
 .referrals .listStatistic {
     background-color: #ffffff;
 }
