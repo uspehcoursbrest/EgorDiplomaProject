@@ -1049,10 +1049,9 @@ footer .menuFooter a {
 
 .left {
     background-color: #00256a;
-    display: block;
-    float: left;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 200px;
 }
 
@@ -1084,7 +1083,10 @@ footer .menuFooter a {
     bottom: 40px;
 
 }
-
+.right {
+    position: absolute;
+    padding-left: 200px;
+}
 .left .copyright span {
     font-size: 13px;
     line-height: 1313px;
@@ -1360,7 +1362,7 @@ footer .menuFooter a {
     width: 680px;
 }
 
-.referrals .referralsBlock1 {
+.referrals .referralsBlock {
     background-color: #f3f7ff;
 }
 .firstData .data {
