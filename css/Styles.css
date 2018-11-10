@@ -12,7 +12,6 @@ body {
 .bodyWrap {
     overflow: hidden;
 }
-
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -22,6 +21,26 @@ ul {
     padding: 0;
     list-style-type: none;
 
+}
+.but button:hover {
+    color: #ffffff;
+    border: 2px solid #013490;
+    background-color: #fb7ab0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.but2 button:hover {
+    color: #ffffff;
+    border: 2px solid #013490;
+    background-color: #5ba1fc;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .container {
@@ -112,7 +131,6 @@ header .dataTime span.date {
     line-height: 16px;
     color: #9ec2f8;
 }
-
 header .input span:nth-child(odd) {
     font-size: 17px;
     color: #89b4f4;
@@ -135,6 +153,9 @@ header .menu a {
     font-weight: 500;
     text-decoration: none;
     color: #ffffff;
+}
+header .menu a:hover {
+    color: #e12f77;
 }
 
 header .menu a.active {
@@ -229,7 +250,7 @@ header .menu li {
     color: #012c7a;
     font-size: 36px;
     background-color: #fff;
-    box-shadow: 21px 21px 21px 0px rgba(136,163,221,0.33);
+    box-shadow: 21px 21px 21px 0px rgba(136, 163, 221, 0.33);
 }
 
 .statisticBlock span:nth-child(2) {
@@ -280,6 +301,9 @@ header .menu li {
 
 .info a {
     text-decoration: none;
+}
+.info ul a:hover {
+    color: #e0186c;
 }
 
 .info .tabs a.active {
@@ -537,7 +561,15 @@ header .menu li {
     background-color: #0b48af;
     border: 1px solid #3168cb;
 }
-
+.contentcard .listPlan input:hover {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    background-color: #326aca;
+    border: 2px solid #1749a2;
+}
 .contentcard .listPlan span {
     font-size: 17px;
     line-height: 84px;
@@ -614,11 +646,13 @@ header .menu li {
     color: #0349c6;
     margin-top: 155px;
 }
+
 .video {
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 50px;
 }
+
 .video .videoGraph span.title {
     font-size: 50px;
     line-height: 84px;
@@ -644,7 +678,7 @@ header .menu li {
     font-size: 95px;
     line-height: 95px;
     color: #ffffff;
-    box-shadow:  0px 0px 51px 33px rgba(0,7,49,0.55);
+    box-shadow: 0px 0px 51px 33px rgba(0, 7, 49, 0.55);
     border-radius: 50%;
 }
 
@@ -655,10 +689,12 @@ header .menu li {
 .video .statisticWebsite5 span:first-child {
     color: #de1c6e;
 }
+
 .statistic {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .statistic span[class^="icon"] {
     color: #044ac6;
 }
@@ -734,17 +770,17 @@ header .menu li {
     float: right;
 }
 
-.deposit {
+.total {
     margin-top: 445px;
 }
 
-.deposit .table {
+.total .table {
     width: 100%;
     display: table;
 }
 
-.deposit .oneList,
-.deposit .twoList {
+.total .oneList,
+.total .twoList {
     display: table-cell;
     width: 50%;
     vertical-align: middle;
@@ -758,7 +794,7 @@ header .menu li {
     text-align: center;
 }
 
-.deposit .listDeposit h2 {
+.total .listDeposit h2 {
     font-size: 50px;
     line-height: 84px;
     font-weight: 700;
@@ -766,72 +802,69 @@ header .menu li {
     padding-bottom: 110px;
 }
 
-.deposit .oneList span.title {
+.total .oneList span.title {
     font-size: 16px;
     line-height: 50px;
     font-weight: 500;
     color: #061046;
 }
 
-.deposit .oneList span.data {
+.total .oneList span.data {
     font-size: 14px;
     line-height: 50px;
     color: #91a8ce;
 }
 
-.deposit .oneList span[class^="icon"] {
+.total .oneList span[class^="icon"] {
     color: #4194ff;
 }
 
-.deposit .oneList span.dollar {
+.total .oneList span.dollar {
     font-size: 16px;
     line-height: 50px;
     font-weight: 700;
     color: #4194ff;
 }
 
-.deposit .oneList li span:last-child {
+.total .oneList li span:last-child {
     color: #061046;
 }
 
-.deposit .twoList span.title {
+.total .twoList span.title {
     font-size: 16px;
     line-height: 50px;
     font-weight: 500;
     color: #061046;
 }
 
-.deposit .twoList span.data {
+.total .twoList span.data {
     font-size: 14px;
     line-height: 50px;
     color: #91a8ce;
 }
 
-.deposit .twoList span[class^="icon"] {
+.total .twoList span[class^="icon"] {
     color: #de1c6e;
 }
 
-.deposit .twoList span.dollar {
+.total .twoList span.dollar {
     font-size: 16px;
     line-height: 50px;
     font-weight: 700;
     color: #de1c6e;
 }
 
-.deposit .twoList li span:last-child {
+.total .twoList li span:last-child {
     color: #061046;
 }
 
-.deposit .but2 {
+.total .but2 {
     text-align: center;
 }
-
-
 
 .advantages {
     background-repeat: no-repeat;
     background-position: center;
-
 
 }
 
@@ -892,9 +925,11 @@ header .menu li {
     padding-top: 120px;
     padding-bottom: 130px;
 }
+
 .news {
     background-color: #fff;
 }
+
 .news p:first-child {
     font-size: 30px;
     line-height: 40px;
@@ -923,20 +958,24 @@ header .menu li {
     float: left;
     text-align: center;
 }
+
 .payments {
     background-color: #eaeff9;
 }
+
 .payments img {
     text-align: center;
     padding-left: 50px;
     padding-top: 70px;
     padding-bottom: 5px;
 }
+
 footer {
     background-repeat: no-repeat;
     background-position: center;
     margin-top: -50px;
 }
+
 footer .table {
     width: 100%;
     display: table;
@@ -1004,7 +1043,9 @@ footer .data a {
     line-height: 30px;
     color: #ffffff;
 }
-
+footer .data a:hover {
+    color: #e0186c;
+}
 footer .logo span.title {
     font-size: 37px;
     line-height: 84px;
@@ -1038,7 +1079,9 @@ footer .contact a {
     line-height: 30px;
     color: #ffffff;
 }
-
+footer .contact a:hover {
+    color: #e0186c;
+}
 footer .menuFooter a {
     font-size: 15px;
     line-height: 84px;
@@ -1046,13 +1089,473 @@ footer .menuFooter a {
     text-decoration: none;
     color: #ffffff;
 }
+footer .menuFooter a:hover {
+    color: #e0186c;
+}
+    /*.right {*/
+/*position: absolute;*/
+/*padding-left: 200px;*/
+/*width: 1920px;*/
 
+/*}*/
+
+/*.right header.referrals {*/
+/*background-color: #00256a;*/
+/*padding-top: 15px;*/
+/*padding-right: 200px;*/
+/*padding-left: 100px;*/
+/*}*/
+
+/*.right header.referrals a {*/
+/*text-decoration: none;*/
+/*}*/
+
+/*.right header.referrals .logo span.title {*/
+/*font-size: 30px;*/
+/*line-height: 7px;*/
+/*font-weight: 700;*/
+/*text-transform: uppercase;*/
+/*color: #ffffff;*/
+/*}*/
+
+/*.right header.referrals .logo span:last-child {*/
+/*font-size: 11px;*/
+/*line-height: 20px;*/
+/*text-transform: uppercase;*/
+/*color: #ffffff;*/
+/*letter-spacing: 0.22em;*/
+/*}*/
+
+/*.right header.referrals .menu1 a {*/
+/*font-size: 15px;*/
+/*line-height: 84px;*/
+/*font-weight: 500;*/
+/*color: #ffffff;*/
+/*}*/
+
+/*.right header.referrals .wrap a  {*/
+/*font-size: 20px;*/
+/*color: #ffffff;*/
+/*padding-left: 10px;*/
+/*}*/
+
+/*.right header.referrals .logo {*/
+/*float: left;*/
+/*width: 184px;*/
+/*padding-top: 33px;*/
+/*}*/
+/*.right header.referrals .logo img {*/
+/*display: block;*/
+/*padding-top: 7px;*/
+/*}*/
+/*.right header.referrals {*/
+/*height: 120px;*/
+/*width: auto;*/
+/*}*/
+
+/*.right header.referrals .menu1 {*/
+/*width: auto;*/
+/*}*/
+
+/*.right header.referrals .wrap {*/
+/*float: right;*/
+/*width: 160px;*/
+/*padding-top: 33px;*/
+
+/*}*/
+
+/*.right header.referrals .menu1 li {*/
+/*padding-left: 30px;*/
+/*display: inline-block;*/
+/*}*/
+/*.statisticAccount {*/
+/*background-color: #eaeff9;*/
+/*box-shadow: 22px 21px 21px 0 rgba(136,163,221,0.33);*/
+/*}*/
+
+/*.statisticAccount .listUser {*/
+/*width: 50%;*/
+/*float: left;*/
+/*}*/
+
+/*.statisticAccount .balance {*/
+/*width: 50%;*/
+/*float: left;*/
+
+/*}*/
+
+/*.statisticAccount .listUser ul {*/
+/*display: inline-block;*/
+
+/*}*/
+
+/*.statisticAccount .listUser span.data {*/
+/*display: block;*/
+/*}*/
+
+/*.statisticAccount .men img  {*/
+/*width: 45px;*/
+/*height: 45px;*/
+/*-webkit-background-size: cover;*/
+/*background-size: cover;*/
+/*background-repeat: no-repeat;*/
+/*margin-left: -80px;*/
+/*margin-bottom: -50px;*/
+
+/*}*/
+
+/*.referrals {*/
+/*background-color: #d6dff2;*/
+/*}*/
+
+/*.statisticAccount a {*/
+/*text-decoration: none;*/
+/*}*/
+
+/*.statisticAccount .listUser span {*/
+/*font-size: 14px;*/
+/*line-height: 18px;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.statisticAccount .listUser span.data {*/
+/*font-size: 14px;*/
+/*line-height: 18px;*/
+/*font-weight: 700;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.statisticAccount .balance {*/
+/*position: relative;*/
+/*}*/
+
+/*.statisticAccount .balance .but button {*/
+/*font-size: 16px;*/
+/*line-height: 65px;*/
+/*color: #ffffff;*/
+/*text-align: center;*/
+/*background-color: #003ead;*/
+/*border: none;*/
+/*width: 230px;*/
+/*font-weight: 700;*/
+/*position: absolute;*/
+/*display: block;*/
+/*left: -50%;*/
+/*bottom: 60px;*/
+/*}*/
+
+/*.statisticAccount .yourbalance span:first-child {*/
+/*color: #df2977;*/
+/*}*/
+
+/*.statisticAccount .yourbalance span:nth-child(2) {*/
+/*font-size: 12px;*/
+/*line-height: 30px;*/
+/*text-transform: uppercase;*/
+/*color: #0349c6;*/
+/*display: block;*/
+/*}*/
+
+/*.statisticAccount .yourbalance span:nth-child(3) {*/
+/*font-size: 30px;*/
+/*line-height: 30px;*/
+/*font-weight: 700;*/
+/*color: #0349c6;*/
+/*display: block;*/
+/*}*/
+
+/*.statisticAccount .balance {*/
+/*position: relative;*/
+
+/*}*/
+
+/*.statisticAccount .balance .but2 button {*/
+/*font-size: 16px;*/
+/*line-height: 65px;*/
+/*color: #ffffff;*/
+/*text-align: center;*/
+/*background-color: #de1c6e;*/
+/*border: none;*/
+/*width: 230px;*/
+/*font-weight: 700;*/
+/*position: relative;*/
+/*display: block;*/
+/*bottom: 60px;*/
+/*left: 50%;*/
+
+/*}*/
+
+/*.statisticAccount .manyCards .card span[class^="icon"] {*/
+/*color: #012c7a;*/
+
+/*}*/
+
+/*.statisticAccount .card span:nth-child(even) {*/
+/*font-size: 14px;*/
+/*line-height: 18px;*/
+/*color: #012c7a;*/
+/*display: block;*/
+/*}*/
+
+/*.manyCards .card {*/
+/*float: left;*/
+/*width: 20%;*/
+/*}*/
+
+/*.statisticAccount .card span.dollars {*/
+/*font-size: 16px;*/
+/*line-height: 18px;*/
+/*font-weight: 700;*/
+/*color: #2f7bde;*/
+/*display: block;*/
+/*}*/
+
+/*.statisticAccount .card span.money {*/
+/*font-size: 16px;*/
+/*line-height: 18px;*/
+/*font-weight: 700;*/
+/*color: #de1c6e;*/
+/*display: block;*/
+/*}*/
+
+/*.referrals h1 {*/
+/*font-size: 50px;*/
+/*line-height: 84px;*/
+/*font-weight: 700;*/
+/*color: #0349c6;*/
+/*}*/
+
+/*.referrals .men2 {*/
+/*width: 60px;*/
+/*height: 60px;*/
+/*}*/
+
+/*.referrals .data {*/
+/*background-color: #ffffff;*/
+/*height: 245px;*/
+/*width: 680px;*/
+/*}*/
+
+/*.referrals a {*/
+/*text-decoration: none;*/
+/*}*/
+
+/*.referrals span[class^="icon"] {*/
+/*color: #f03e81;*/
+/*}*/
+
+/*.referrals span.title {*/
+/*font-size: 12px;*/
+/*line-height: 30px;*/
+/*color: #0349c6;*/
+/*text-transform: uppercase;*/
+/*}*/
+
+/*.referrals span[class^="down"] {*/
+/*font-size: 30px;*/
+/*line-height: 30px;*/
+/*font-weight: 700;*/
+/*color: #0349c6;*/
+/*}*/
+
+/*.referrals .data .click {*/
+/*background-color: #eaeff9;*/
+/*border: 1px solid #cfdaf1;*/
+/*}*/
+
+/*.referrals .data .click a {*/
+/*font-size: 16px;*/
+/*line-height: 30px;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.referrals .data2 span.name {*/
+/*font-size: 16px;*/
+/*line-height: 30px;*/
+/*font-weight: 700;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.referrals .data2 a {*/
+/*font-size: 16px;*/
+/*line-height: 30px;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.referrals .data2 {*/
+/*background-color: #ffffff;*/
+/*height: 245px;*/
+/*width: 680px;*/
+/*}*/
+
+/*.referrals .referralsBlock {*/
+/*background-color: #f3f7ff;*/
+/*}*/
+
+/*.firstData .data {*/
+/*width: 50%;*/
+/*float: left;*/
+/*}*/
+
+/*.firstData .data2 {*/
+/*width: 50%;*/
+/*float: right;*/
+/*}*/
+
+/*.blockReferrals .referralsBlock {*/
+/*width: 33%;*/
+/*float: left;*/
+/*}*/
+/*.listStatistic {*/
+/*padding-left: 100px;*/
+/*}*/
+/*.listStatistic .oneList {*/
+/*width: 50%;*/
+/*float: left;*/
+/*}*/
+/*.listStatistic .twoList {*/
+/*width: 50%;*/
+/*float: left;*/
+/*}*/
+/*.referrals .listStatistic {*/
+/*background-color: #ffffff;*/
+/*}*/
+
+/*.referrals .listStatistic label[class^="up"] {*/
+/*font-size: 16px;*/
+/*line-height: 30px;*/
+/*font-weight: 700;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.referrals .dataUser,*/
+/*.referrals .dataUser2,*/
+/*.referrals .dataUser3 span[class^="up"] {*/
+/*font-size: 16px;*/
+/*line-height: 30px;*/
+/*font-weight: 700;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.referrals .listStatistic select {*/
+/*font-size: 16px;*/
+/*line-height: 30px;*/
+/*color: #012c7a;*/
+/*background-color: #eaeff9;*/
+/*border: 1px solid #cfdaf1;*/
+/*}*/
+/*.dataUser,*/
+/*.dataUser2,*/
+/*.dataUser3 {*/
+/*display: table-cell;*/
+/*width: 33.3333%;*/
+/*padding-top: 40px;*/
+/*padding-left: 300px;*/
+/*}*/
+/*.referrals .listStatistic .dataUser {*/
+/*font-size: 14px;*/
+/*line-height: 50px;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.referrals .listStatistic .dataUser2 {*/
+/*font-size: 16px;*/
+/*line-height: 50px;*/
+/*font-weight: 700;*/
+/*color: #4194ff;*/
+/*}*/
+
+/*.referrals .listStatistic .dataUser3 {*/
+/*font-size: 16px;*/
+/*line-height: 50px;*/
+/*font-weight: 700;*/
+/*color: #de1c6e;*/
+/*}*/
+
+/*.referrals .listStatistic li {*/
+/*border: 1px dotted #bccae0;*/
+/*}*/
+
+/*.referrals .listStatistic2 {*/
+/*background-color: #ffffff;*/
+/*}*/
+
+/*.referrals .listStatistic2 select {*/
+/*font-size: 16px;*/
+/*line-height: 30px;*/
+/*color: #012c7a;*/
+/*background-color: #eaeff9;*/
+/*border: 1px solid #cfdaf1;*/
+/*}*/
+
+/*.referrals .listStatistic2 label[class^="up"] {*/
+/*font-size: 16px;*/
+/*line-height: 30px;*/
+/*font-weight: 700;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.referrals .listStatistic2 span[class^="up"] {*/
+/*font-size: 16px;*/
+/*line-height: 30px;*/
+/*font-weight: 700;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.referrals .listStatistic2 li {*/
+/*border: 1px dotted #bccae0;*/
+/*}*/
+
+/*.listStatistic2 .Accordion a {*/
+/*font-size: 16px;*/
+/*line-height: 50px;*/
+/*font-weight: 700;*/
+/*color: #4194ff;*/
+/*}*/
+
+/*.listStatistic2 .accordion span.icon-triangleDown {*/
+/*color: #4194ff;*/
+/*}*/
+
+/*.listStatistic2 .accordion a.open {*/
+/*font-size: 16px;*/
+/*line-height: 50px;*/
+/*font-weight: 700;*/
+/*color: #de1c6e;*/
+/*}*/
+
+/*.listStatistic2 .accordion .content span {*/
+/*font-size: 14px;*/
+/*line-height: 50px;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.listStatistic2 .accordion .content span.ones {*/
+/*font-size: 14px;*/
+/*line-height: 50px;*/
+/*font-weight: 700;*/
+/*color: #de1c6e;*/
+/*}*/
+
+/*.listStatistic2 .mail a {*/
+/*font-size: 14px;*/
+/*line-height: 50px;*/
+/*color: #012c7a;*/
+/*}*/
+
+/*.listStatistic2 .status span {*/
+/*font-size: 14px;*/
+/*line-height: 50px;*/
+/*color: #de1c6e;*/
+/*}*/
+/*Deposi*/
 .left {
     background-color: #00256a;
     position: absolute;
     top: 0;
     left: 0;
     width: 200px;
+    height: auto;
 }
 
 .left a {
@@ -1069,40 +1572,58 @@ footer .menuFooter a {
     line-height: 120px;
     color: #ffffff;
     text-transform: uppercase;
-
+    display: block;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .left .transition {
-    border-bottom: 1px solid #325088;
+    border: 1px solid #325088;
+    height: 120px;
+}
+
+.left .transition a {
     position: relative;
 }
 
-.left .transition span[class^="icon"] {
-    position: relative;
-    display: inline-block;
-    bottom: 40px;
+.left .transition span[class^="icon-"] {
+    display: block;
+    font-size: 25px;
+    line-height: 25px;
+    position: absolute;
+    padding-left: 88px;
+    padding-top: 27px;
 
 }
+
+.left .copyright span {
+    font-size: 13px;
+    line-height: 20px;
+    color: #6f99da;
+    display: block;
+    padding-top: 1440px;
+    text-align: center;
+}
+
 .right {
     position: absolute;
     padding-left: 200px;
-}
-.left .copyright span {
-    font-size: 13px;
-    line-height: 1313px;
-    color: #6f99da;
+    width: 1920px;
+
 }
 
-.right header.Referrals {
+.right header.referrals {
     background-color: #00256a;
     padding-top: 15px;
+    padding-right: 200px;
+    padding-left: 100px;
 }
 
-.right header.Referrals a {
+.right header.referrals a {
     text-decoration: none;
 }
 
-.right header.Referrals .logo span.title {
+.right header.referrals .logo span.title {
     font-size: 30px;
     line-height: 7px;
     font-weight: 700;
@@ -1110,7 +1631,7 @@ footer .menuFooter a {
     color: #ffffff;
 }
 
-.right header.Referrals .logo span:last-child {
+.right header.referrals .logo span:last-child {
     font-size: 11px;
     line-height: 20px;
     text-transform: uppercase;
@@ -1118,132 +1639,140 @@ footer .menuFooter a {
     letter-spacing: 0.22em;
 }
 
-.right header.Referrals .menu1 a {
+.right header.referrals .menu1 a {
     font-size: 15px;
     line-height: 84px;
     font-weight: 500;
     color: #ffffff;
 }
 
-.right header.Referrals .wrap a span {
-    font-size: 15px;
+.right header.referrals .wrap a {
+    font-size: 20px;
     color: #ffffff;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
-.right header.Referrals .logo {
+.right header.referrals .logo {
     float: left;
     width: 184px;
     padding-top: 33px;
 }
 
-.right header.Referrals {
+.right header.referrals .logo img {
+    display: block;
+    padding-top: 7px;
+}
+
+.right header.referrals {
     height: 120px;
     width: auto;
 }
 
-.right header.Referrals .menu1 {
+.right header.referrals .menu1 {
     width: auto;
 }
 
-.right header.Referrals .wrap {
+.right header.referrals .wrap {
     float: right;
     width: 160px;
     padding-top: 33px;
-    padding-left: 15px;
+
 }
 
-.right header.Referrals .menu1 li {
+.right header.referrals .menu1 li {
     padding-left: 30px;
     display: inline-block;
 }
 
-.statisticAccount .listUser {
-    width: 50%;
-    float: left;
-}
-
-.statisticAccount .balance {
-    width: 50%;
-    float: left;
-
-}
-
-.statisticAccount .listUser ul {
-    display: inline-block;
-
-}
-
-.statisticAccount .listUser span.data {
-    display: block;
-}
-
-.statisticAccount .men {
-    width: 45px;
-    height: 45px;
-}
-
-.referrals {
+.right .deposit {
     background-color: #d6dff2;
 }
 
-.statisticAccount a {
-    text-decoration: none;
+.upBlock {
+    margin-top: -80px;
 }
 
-.statisticAccount .listUser span {
-    font-size: 14px;
-    line-height: 18px;
-    color: #012c7a;
+.upBlock .userName {
+    width: 50%;
+    float: left;
+    margin-top: 45px;
+    margin-left: -60px;
 }
 
-.statisticAccount .listUser span.data {
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 700;
-    color: #012c7a;
+.upBlock .yourbalance {
+    width: 50%;
+    float: left;
+    margin-top: -40px;
+    margin-left: 850px;
 }
-.statisticAccount .balance {
+
+.men {
     position: relative;
 }
-.statisticAccount .balance .but button {
-    font-size: 16px;
-    line-height: 65px;
-    color: #ffffff;
-    text-align: center;
-    background-color: #003ead;
-    border: none;
-    width: 230px;
-    font-weight: 700;
+
+.men img {
+    width: 45px;
+    height: 45px;
     position: absolute;
     display: block;
-    left: -50%;
-    bottom: 60px;
+    left: -30px;
 }
 
-.statisticAccount .yourbalance span:first-child {
-    color: #df2977;
+.userName ul {
+    display: inline-block;
+    padding-left: 45px;
 }
 
-.statisticAccount .yourbalance span:nth-child(2) {
-    font-size: 12px;
-    line-height: 30px;
-    text-transform: uppercase;
-    color: #0349c6;
+.userName ul span.title {
+    font-size: 14px;
+    line-height: 8px;
+    color: #012c7a;
 }
 
-.statisticAccount .yourbalance span:nth-child(3) {
-    font-size: 30px;
-    line-height: 30px;
+.userName ul span.data {
+    font-size: 18px;
+    line-height: 8px;
     font-weight: 700;
-    color: #0349c6;
+    color: #012c7a;
 }
 
-.statisticAccount .balance {
+.balance .in {
     position: relative;
 }
 
-.statisticAccount .balance .but2 button {
+.balance .in span.icon-coins {
+    font-size: 36px;
+    line-height: 33px;
+    color: #de1c6e;
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: -55px;
+}
+
+.balance .yourbalance span:nth-child(2) {
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0349c6;
+    display: block;
+    letter-spacing: 0.30em;
+}
+
+.balance .yourbalance span:nth-child(3) {
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #0349c6;
+    display: block;
+
+}
+
+.balance .but {
+    position: relative;
+}
+
+.balance .but button {
     font-size: 16px;
     line-height: 65px;
     color: #ffffff;
@@ -1254,258 +1783,72 @@ footer .menuFooter a {
     font-weight: 700;
     position: relative;
     display: block;
-    bottom: 60px;
-    left: 50%;
-
+    top: 35px;
 }
 
-.statisticAccount .manyCards .card span[class^="icon"] {
-    color: #012c7a;
-
+.balance .but2 {
+    position: relative;
 }
 
-.statisticAccount .card span:nth-child(even) {
-    font-size: 14px;
-    line-height: 18px;
-    color: #012c7a;
+.balance .but2 button {
+    font-size: 16px;
+    line-height: 65px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #003ead;
+    border: none;
+    width: 230px;
+    font-weight: 700;
+    position: absolute;
     display: block;
+    left: 1030px;
+    top: -32px;
+}
+
+.manyCards {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .manyCards .card {
     float: left;
     width: 20%;
+
 }
 
-.statisticAccount .card span.dollars {
+.manyCards .in {
+    position: relative;
+}
+
+.manyCards .in span[class^="icon-"] {
+    font-size: 40px;
+    line-height: 40px;
+    color: #012c7a;
+    position: absolute;
+    display: block;
+    left: -70px;
+    top: 15px;
+}
+
+.manyCards .card span:nth-child(even) {
+    font-size: 14px;
+    line-height: 20px;
+    color: #012c7a;
+    display: block;
+}
+
+.manyCards .card span.dollars {
     font-size: 16px;
-    line-height: 18px;
+    line-height: 7px;
     font-weight: 700;
     color: #2f7bde;
-    display: block;
 }
 
-.statisticAccount .card span.money {
+.manyCards .card span.money {
     font-size: 16px;
-    line-height: 18px;
+    line-height: 7px;
     font-weight: 700;
     color: #de1c6e;
-    display: block;
-}
-
-.referrals h1 {
-    font-size: 50px;
-    line-height: 84px;
-    font-weight: 700;
-    color: #0349c6;
-}
-
-.referrals .men2 {
-    width: 60px;
-    height: 60px;
-}
-
-.referrals .data {
-    background-color: #ffffff;
-    height: 245px;
-    width: 680px;
-}
-
-.referrals a {
-    text-decoration: none;
-}
-
-.referrals span[class^="icon"] {
-    color: #f03e81;
-}
-
-.referrals span.title {
-    font-size: 12px;
-    line-height: 30px;
-    color: #0349c6;
-    text-transform: uppercase;
-}
-
-.referrals span[class^=down] {
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #0349c6;
-}
-
-.referrals .data .click {
-    background-color: #eaeff9;
-    border: 1px solid #cfdaf1;
-}
-
-.referrals .data .click a {
-    font-size: 16px;
-    line-height: 30px;
-    color: #012c7a;
-}
-
-.referrals .data2 span.name {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #012c7a;
-}
-
-.referrals .data2 a {
-    font-size: 16px;
-    line-height: 30px;
-    color: #012c7a;
-}
-
-.referrals .data2 {
-    background-color: #ffffff;
-    height: 245px;
-    width: 680px;
-}
-
-.referrals .referralsBlock {
-    background-color: #f3f7ff;
-}
-.firstData .data {
-    width: 50%;
-    float: left;
-}
-.firstData .data2 {
-    width: 50%;
-    float: right;
-}
-.blockReferrals .referralsBlock {
-    width: 33%;
-    float: left;
-}
-.referrals .listStatistic {
-    background-color: #ffffff;
-}
-
-.referrals .listStatistic label[class^="up"] {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #012c7a;
-}
-
-.referrals .listStatistic span[class^="up"] {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #012c7a;
-}
-
-.referrals .listStatistic select {
-    font-size: 16px;
-    line-height: 30px;
-    color: #012c7a;
-    background-color: #eaeff9;
-    border: 1px solid #cfdaf1;
-}
-
-.referrals .listStatistic .DataUser {
-    font-size: 14px;
-    line-height: 50px;
-    color: #012c7a;
-}
-
-.referrals .listStatistic .DataUser2 {
-    font-size: 16px;
-    line-height: 50px;
-    font-weight: 700;
-    color: #4194ff;
-}
-
-.referrals .listStatistic .DataUser3 {
-    font-size: 16px;
-    line-height: 50px;
-    font-weight: 700;
-    color: #de1c6e;
-}
-
-.referrals .listStatistic li {
-    border: 1px dotted #bccae0;
-}
-
-.referrals .listStatistic2 {
-    background-color: #ffffff;
-}
-
-.referrals .listStatistic2 select {
-    font-size: 16px;
-    line-height: 30px;
-    color: #012c7a;
-    background-color: #eaeff9;
-    border: 1px solid #cfdaf1;
-}
-
-.referrals .listStatistic2 label[class^="up"] {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #012c7a;
-}
-
-.referrals .listStatistic2 span[class^="up"] {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #012c7a;
-}
-
-.referrals .listStatistic2 li {
-    border: 1px dotted #bccae0;
-}
-
-.listStatistic2 .Accordion a {
-    font-size: 16px;
-    line-height: 50px;
-    font-weight: 700;
-    color: #4194ff;
-}
-
-.listStatistic2 .accordion span.icon-triangleDown {
-    color: #4194ff;
-}
-
-.listStatistic2 .accordion a.open {
-    font-size: 16px;
-    line-height: 50px;
-    font-weight: 700;
-    color: #de1c6e;
-}
-
-.listStatistic2 .accordion .content span {
-    font-size: 14px;
-    line-height: 50px;
-    color: #012c7a;
-}
-
-.listStatistic2 .accordion .content span.ones {
-    font-size: 14px;
-    line-height: 50px;
-    font-weight: 700;
-    color: #de1c6e;
-}
-
-.listStatistic2 .mail a {
-    font-size: 14px;
-    line-height: 50px;
-    color: #012c7a;
-}
-
-.listStatistic2 .status span {
-    font-size: 14px;
-    line-height: 50px;
-    color: #de1c6e;
-}
-
-.right .deposit {
-    background-color: #d6dff2;
-}
-
-.right .deposit .depositCard {
-    background-color: #eaeff9;
 }
 
 .right .deposit h2 {
@@ -1515,17 +1858,27 @@ footer .menuFooter a {
     color: #0349c6;
 }
 
-.depositCard .deposiImg span:last-child {
+.depositCard {
+    width: 1420px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.depositCard .depositImg span[class^="icon-"] {
+    font-size: 73px;
+}
+
+.depositCard .depositImg span.title {
     font-size: 13px;
     line-height: 22px;
     color: #ffffff;
 }
-
 .depositCard .persentLeft span:nth-child(odd) {
     font-size: 13px;
-    line-height: 15px;
+    line-height: 80px;
     text-transform: uppercase;
     color: #f1257b;
+    display: block;
 }
 
 .depositCard .persentLeft span:nth-child(2) {
@@ -1533,6 +1886,7 @@ footer .menuFooter a {
     line-height: 14px;
     font-weight: 700;
     color: #e0186c;
+    display: block;
 }
 
 .miniCards span[class^="icon"] {
@@ -1545,6 +1899,7 @@ footer .menuFooter a {
     font-size: 16px;
     line-height: 10px;
     color: #012c7a;
+    display: block;
 }
 
 .miniCards .miniDate span.number {
