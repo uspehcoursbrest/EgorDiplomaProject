@@ -12,6 +12,12 @@ body {
 .bodyWrap {
     overflow: hidden;
 }
+
+.bodyDeposit {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -22,6 +28,7 @@ ul {
     list-style-type: none;
 
 }
+
 .but button:hover {
     color: #ffffff;
     border: 2px solid #013490;
@@ -32,6 +39,7 @@ ul {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .but2 button:hover {
     color: #ffffff;
     border: 2px solid #013490;
@@ -131,6 +139,7 @@ header .dataTime span.date {
     line-height: 16px;
     color: #9ec2f8;
 }
+
 header .input span:nth-child(odd) {
     font-size: 17px;
     color: #89b4f4;
@@ -154,6 +163,7 @@ header .menu a {
     text-decoration: none;
     color: #ffffff;
 }
+
 header .menu a:hover {
     color: #e12f77;
 }
@@ -302,6 +312,7 @@ header .menu li {
 .info a {
     text-decoration: none;
 }
+
 .info ul a:hover {
     color: #e0186c;
 }
@@ -561,6 +572,7 @@ header .menu li {
     background-color: #0b48af;
     border: 1px solid #3168cb;
 }
+
 .contentcard .listPlan input:hover {
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -570,6 +582,7 @@ header .menu li {
     background-color: #326aca;
     border: 2px solid #1749a2;
 }
+
 .contentcard .listPlan span {
     font-size: 17px;
     line-height: 84px;
@@ -1043,9 +1056,11 @@ footer .data a {
     line-height: 30px;
     color: #ffffff;
 }
+
 footer .data a:hover {
     color: #e0186c;
 }
+
 footer .logo span.title {
     font-size: 37px;
     line-height: 84px;
@@ -1079,9 +1094,11 @@ footer .contact a {
     line-height: 30px;
     color: #ffffff;
 }
+
 footer .contact a:hover {
     color: #e0186c;
 }
+
 footer .menuFooter a {
     font-size: 15px;
     line-height: 84px;
@@ -1089,10 +1106,12 @@ footer .menuFooter a {
     text-decoration: none;
     color: #ffffff;
 }
+
 footer .menuFooter a:hover {
     color: #e0186c;
 }
-    /*.right {*/
+
+/*.right {*/
 /*position: absolute;*/
 /*padding-left: 200px;*/
 /*width: 1920px;*/
@@ -1564,7 +1583,7 @@ footer .menuFooter a:hover {
 
 .left a span[class^="icon"] {
     color: #89b4f4;
-
+    margin-top: 12px;
 }
 
 .left .transition a span:last-child {
@@ -1614,8 +1633,6 @@ footer .menuFooter a:hover {
 
 .right header.referrals {
     background-color: #00256a;
-    padding-top: 15px;
-    padding-right: 200px;
     padding-left: 100px;
 }
 
@@ -1623,20 +1640,24 @@ footer .menuFooter a:hover {
     text-decoration: none;
 }
 
-.right header.referrals .logo span.title {
-    font-size: 30px;
-    line-height: 7px;
+.right header.referrals .logoDeposit span.title {
+    font-size: 27px;
+    line-height: 20px;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
+    font-family: "Monda";
+    letter-spacing: 0.11em;
+    display: block;
 }
 
-.right header.referrals .logo span:last-child {
+.right header.referrals .logoDeposit span:last-child {
     font-size: 11px;
     line-height: 20px;
     text-transform: uppercase;
     color: #ffffff;
-    letter-spacing: 0.22em;
+    letter-spacing: 0.43em;
+    display: block;
 }
 
 .right header.referrals .menu1 a {
@@ -1646,21 +1667,27 @@ footer .menuFooter a:hover {
     color: #ffffff;
 }
 
-.right header.referrals .wrap a {
-    font-size: 20px;
+.right header.referrals .wrap a span {
+    font-size: 15px;
     color: #ffffff;
-    padding-left: 10px;
+padding-left: 35px;
+
 }
 
-.right header.referrals .logo {
+.right header.referrals .logoDeposit {
     float: left;
     width: 184px;
-    padding-top: 33px;
+    padding-top: 45px;
+    padding-left: 40px;
+    position: relative;
 }
 
-.right header.referrals .logo img {
-    display: block;
-    padding-top: 7px;
+.right header.referrals .logoDeposit img {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -2px;
+    width: 43px;
+    height: 38px;
 }
 
 .right header.referrals {
@@ -1675,12 +1702,16 @@ footer .menuFooter a:hover {
 .right header.referrals .wrap {
     float: right;
     width: 160px;
-    padding-top: 33px;
-
+    padding-top: 50px;
+    margin-right: 170px;
 }
-
+.statisticAccount {
+    background-color: #eaeff9;
+}
 .right header.referrals .menu1 li {
-    padding-left: 30px;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-left: 40px;
     display: inline-block;
 }
 
@@ -1688,136 +1719,142 @@ footer .menuFooter a:hover {
     background-color: #d6dff2;
 }
 
-.upBlock {
-    margin-top: -80px;
+.listUser {
+    padding-left: 200px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
 }
-
-.upBlock .userName {
-    width: 50%;
-    float: left;
-    margin-top: 45px;
-    margin-left: -60px;
-}
-
-.upBlock .yourbalance {
-    width: 50%;
-    float: left;
-    margin-top: -40px;
-    margin-left: 850px;
-}
-
-.men {
+.listUser .men {
     position: relative;
 }
-
-.men img {
-    width: 45px;
-    height: 45px;
+.listUser .men img {
     position: absolute;
     display: block;
-    left: -30px;
+    top: 15px;
+    left: -35px;
 }
-
-.userName ul {
+.listUser ul {
     display: inline-block;
     padding-left: 45px;
+    padding-top: 15px;
+
 }
 
-.userName ul span.title {
+.listUser span.title {
     font-size: 14px;
-    line-height: 8px;
+    line-height: 18px;
     color: #012c7a;
+    display: block;
 }
 
-.userName ul span.data {
-    font-size: 18px;
-    line-height: 8px;
+.listUser span.data {
+    font-size: 14px;
+    line-height: 18px;
     font-weight: 700;
     color: #012c7a;
+    display: block;
 }
 
 .balance .in {
     position: relative;
 }
 
-.balance .in span.icon-coins {
-    font-size: 36px;
-    line-height: 33px;
-    color: #de1c6e;
+.balance .but4 button {
+    font-size: 16px;
+    line-height: 65px;
+    color: #ffffff;
+    width: 200px;
+    background-color: #012c7a;
+    border: none;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    top: 35px;
+    left: -72px;
+    z-index: 3;
+}
+
+.balance .but5 button {
+    font-size: 16px;
+    line-height: 65px;
+    color: #ffffff;
+    width: 200px;
+    background-color: #de1c6e;
+    border: none;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    left: 490px;
+    top: -66px;
+    z-index: 3;
+}
+
+.listUser {
+    width: 50%;
+    float: left;
+}
+
+.balance {
+    width: 50%;
+    float: right;
+}
+
+.balance .in {
+    position: relative;
+}
+
+.yourbalance {
+    width: 560px;
+    height: 65px;
+    margin-top: -30px;
+    margin-left: -50px;
+    z-index: 1;
+}
+
+.yourbalance span {
+    padding-top: 5px;
+    padding-left: 320px;
+}
+
+.balance .yourbalance span.icon-coins {
+    font-size: 35px;
+    line-height: 32px;
+    color: #de2171;
     position: absolute;
     display: block;
     top: 8px;
-    left: -55px;
+    left: -65px;
 }
 
 .balance .yourbalance span:nth-child(2) {
     font-size: 12px;
     line-height: 20px;
-    text-transform: uppercase;
     color: #0349c6;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
     display: block;
-    letter-spacing: 0.30em;
 }
 
 .balance .yourbalance span:nth-child(3) {
     font-size: 30px;
-    line-height: 25px;
+    line-height: 20px;
     font-weight: 700;
     color: #0349c6;
-    display: block;
-
 }
 
-.balance .but {
-    position: relative;
-}
 
-.balance .but button {
-    font-size: 16px;
-    line-height: 65px;
-    color: #ffffff;
-    text-align: center;
-    background-color: #de1c6e;
-    border: none;
-    width: 230px;
-    font-weight: 700;
-    position: relative;
-    display: block;
-    top: 35px;
-}
-
-.balance .but2 {
-    position: relative;
-}
-
-.balance .but2 button {
-    font-size: 16px;
-    line-height: 65px;
-    color: #ffffff;
-    text-align: center;
-    background-color: #003ead;
-    border: none;
-    width: 230px;
-    font-weight: 700;
-    position: absolute;
-    display: block;
-    left: 1030px;
-    top: -32px;
-}
-
-.manyCards {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 
 .manyCards .card {
     float: left;
-    width: 20%;
+    width: 25%;
 
 }
 
 .manyCards .in {
     position: relative;
+
 }
 
 .manyCards .in span[class^="icon-"] {
@@ -1826,8 +1863,7 @@ footer .menuFooter a:hover {
     color: #012c7a;
     position: absolute;
     display: block;
-    left: -70px;
-    top: 15px;
+
 }
 
 .manyCards .card span:nth-child(even) {
@@ -1851,101 +1887,178 @@ footer .menuFooter a:hover {
     color: #de1c6e;
 }
 
-.right .deposit h2 {
+.right h2 {
     font-size: 50px;
     line-height: 45px;
     font-weight: 700;
     color: #0349c6;
 }
-
-.depositCard {
-    width: 1420px;
+.big {
+    margin-top: 150px;
+}
+.depItem {
     background-repeat: no-repeat;
     background-position: center;
+    height: 200px;
+    width: auto;
+    margin-top: 45px;
+}
+.depItem .name {
+    position: relative;
+    width: 85px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 220px;
+    background-color: #003ead;
+
 }
 
-.depositCard .depositImg span[class^="icon-"] {
-    font-size: 73px;
+.depItem .name span[class^="icon"] {
+    font-size: 100px;
+    line-height: 70px;
+    position: absolute;
+   display: block;
+    top: 35px;
+    left: -10px;
 }
 
-.depositCard .depositImg span.title {
+.depItem .name span.title {
     font-size: 13px;
-    line-height: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
     color: #ffffff;
+    display: block;
+    padding-top: 115px;
+    padding-left: 15px;
+    letter-spacing: 0.1em;
 }
-.depositCard .persentLeft span:nth-child(odd) {
+.depItem .plan {
+    margin-top: 30px;
+    margin-left: 55px;
+
+}
+.depItem .plan span:nth-child(odd) {
     font-size: 13px;
-    line-height: 80px;
+    line-height: 50px;
     text-transform: uppercase;
     color: #f1257b;
     display: block;
+    letter-spacing: 0.36em;
 }
 
-.depositCard .persentLeft span:nth-child(2) {
+.depItem .plan span.pct {
     font-size: 90px;
-    line-height: 14px;
     font-weight: 700;
-    color: #e0186c;
-    display: block;
+    line-height: 24px;
+    color: #f1257b;
 }
-
-.miniCards span[class^="icon"] {
-    font-size: 30px;
-    line-height: 32px;
-    color: #de1c6e;
+.remain {
+    width: 85px;
+    height: 150px;
+    background-color: #eaeff9;
 }
-
-.miniCards span.title {
-    font-size: 16px;
-    line-height: 10px;
-    color: #012c7a;
-    display: block;
-}
-
-.miniCards .miniDate span.number {
-    font-size: 16px;
-    line-height: 5px;
-    font-weight: 700;
-    color: #012c7a;
-}
-
-.miniCards .miniOutput span.number {
-    font-size: 16px;
-    line-height: 10px;
-    color: #2f7bde;
-    font-weight: 700;
-}
-
-.miniCards .miniAmount span.number {
-    font-size: 16px;
-    line-height: 10px;
-    color: #de1c6e;
-    font-weight: 700;
-}
-
-.depositCard .progres span.title {
-    font-size: 14px;
-    line-height: 7px;
-    color: #012c7a;
-}
-
-.depositCard .progres span.number {
-    font-size: 14px;
-    line-height: 8px;
-    font-weight: 700;
-    color: #012c7a;
-}
-
-.depositCard .persentRight span:first-child {
+.remain span.title {
     font-size: 13px;
-    line-height: 22px;
+    line-height: 15px;
+    font-family: "Monda";
     text-transform: uppercase;
     color: #2f7bde;
+    display: block;
 }
 
-.depositCard .persentRight span:last-child {
+.remain span.pct {
     font-size: 50px;
-    line-height: 45px;
+    line-height: 30px;
     font-weight: 700;
     color: #2f7bde;
+}
+.infoItem .list1 {
+
+}
+.infoItem .list1 li {
+    display: inline-block;
+}
+.infoItem .list1 span[class^="icon-"] {
+    font-size: 30px;
+    line-height: 30px;
+    color: #ef2e76;
+}
+
+.infoItem .list1 span.title {
+    font-size: 16px;
+    line-height: 10px;
+    color: #012c7a;
+    display: block;
+}
+
+.infoItem .list1 span.one {
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 700;
+    color: #012c7a;
+}
+
+.infoItem .list1 span.two {
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 700;
+    color: #2f7bde;
+}
+
+.infoItem .list1 span.free {
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 700;
+    color: #de1c6e;
+}
+.infoItem .list2 li {
+    display: inline-block;
+}
+.infoItem .list2 span.title {
+    font-size: 14px;
+    line-height: 10px;
+    color: #012c7a;
+}
+
+.infoItem .list2 li span:nth-child(even) {
+    font-size: 14px;
+    line-height: 10px;
+    font-weight: 700;
+    color: #012c7a;
+}
+
+.progress {
+    background-color: #c8d3e9;
+    width: 775px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+    left: 195px;
+}
+
+.line {
+    height: 15px;
+    background-position: center;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.name {
+    width: 200px;
+    float: left;
+}
+
+.plan {
+    width: 140px;
+    float: left;
+}
+
+.remain {
+    width: 82px;
+    float: right;
+}
+
+.infoItem {
+    width: 215px;
+    float: right;
 }
