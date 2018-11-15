@@ -2038,19 +2038,21 @@ position: relative;
     background-color: #003ead;
 
 }
-/*.depItem .name:before {*/
-    /*right: 100%;*/
-    /*border-left: 40px solid blue;*/
-/*}*/
-/*.depItem .name::before {*/
-   /*content: '';*/
-    /*display: block;*/
-    /*position: absolute;*/
-    /*width: 0px;*/
-    /*top: 0px;*/
-    /*border-top: 75px solid #003ead;*/
-    /*border-bottom: 75px solid #003ead;*/
-/*}*/
+.depItem .name:before {
+    right: 100%;
+    border-left: 40px solid blue;
+}
+.depItem .name::before {
+   content: '';
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-right: 30px solid transparent;
+}
 
 .depItem .name span[class^="icon"] {
     font-size: 100px;
