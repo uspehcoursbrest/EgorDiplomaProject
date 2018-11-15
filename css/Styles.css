@@ -2249,3 +2249,16 @@ position: relative;
 
     float: right;
 }
+@media (max-width: 1199px) {
+    .bodyDeposit {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .menu {
+        display: none;
+    }
+    .list {
+        display: none;
+    }
+}
