@@ -167,6 +167,7 @@ header .dataTime span.yers {
     font-weight: 500;
     padding-left: 245px;
 }
+
 header .input {
     background-repeat: no-repeat;
     background-position: center;
@@ -175,11 +176,11 @@ header .input {
     left: 48px;
 
 }
+
 header .input span:nth-child(odd) {
     font-size: 17px;
     color: #89b4f4;
     padding-left: 35px;
-
 
 }
 
@@ -764,6 +765,10 @@ header .menu li {
     left: 50%;
     margin: auto;
     text-decoration: none;
+}
+
+.video .videoGraph img {
+    border: 11px solid #ffffff;
 }
 
 .video .videoGraph span.icon-power {
@@ -1724,7 +1729,7 @@ footer .menuFooter a:hover {
 }
 
 .right header.referrals {
-    background-color: #00256a;
+    background-color: #003ead;
     padding-left: 100px;
 }
 
@@ -1758,6 +1763,7 @@ footer .menuFooter a:hover {
     font-weight: 500;
     color: #ffffff;
 }
+
 .right header.referrals .menu1 a:hover {
     color: #f12f77;
     -webkit-transition: all 0.4s;
@@ -1767,6 +1773,7 @@ footer .menuFooter a:hover {
     transition: all 0.4s;
     outline: none;
 }
+
 .right header.referrals .wrap a span {
     font-size: 15px;
     color: #ffffff;
@@ -1880,6 +1887,7 @@ footer .menuFooter a:hover {
     left: -72px;
     z-index: 3;
 }
+
 .balance .but4 button:hover {
     color: #ffffff;
     background-color: #3667be;
@@ -1905,6 +1913,7 @@ footer .menuFooter a:hover {
     top: -66px;
     z-index: 3;
 }
+
 .balance .but5 button:hover {
     color: #ffffff;
     background-color: #e7659d;
@@ -1980,7 +1989,7 @@ footer .menuFooter a:hover {
 }
 
 .manyCards .in {
-position: relative;
+    position: relative;
 
 }
 
@@ -2016,8 +2025,6 @@ position: relative;
     color: #de1c6e;
 }
 
-
-
 .big {
     margin-top: 168px;
 }
@@ -2038,12 +2045,14 @@ position: relative;
     background-color: #003ead;
 
 }
+
 .depItem .name:before {
     right: 100%;
     border-left: 40px solid blue;
 }
+
 .depItem .name::before {
-   content: '';
+    content: '';
     display: block;
     position: absolute;
     width: 0px;
@@ -2101,9 +2110,9 @@ position: relative;
     height: 150px;
     background-color: #eaeff9;
     position: relative;
-   left: -206px;
+    left: -206px;
     top: 43px;
-   
+
 }
 
 .remain span.title {
@@ -2126,8 +2135,7 @@ position: relative;
     position: relative;
     display: inline-block;
     top: 45px;
-   left: -220px;
-
+    left: -220px;
 
 }
 
@@ -2182,9 +2190,11 @@ position: relative;
     font-weight: 700;
     color: #de1c6e;
 }
+
 .depItem .infoItem .list2 {
 
 }
+
 .depItem .infoItem .list2 .col {
     display: inline-block;
     position: relative;
@@ -2251,15 +2261,18 @@ position: relative;
 
     float: right;
 }
+
 @media (max-width: 1199px) {
     .bodyDeposit {
         display: none;
     }
 }
+
 @media (max-width: 991px) {
     .menu {
         display: none;
     }
+
     .list {
         display: none;
     }
