@@ -134,11 +134,17 @@ header span.icon-time {
     position: absolute;
     display: block;
     padding-top: 35px;
-
+    top: 8px;
+    left: 15px;
 }
 
 header .dataTime {
-    margin-top: 32px;
+    margin-top: 46px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 22px;
+    top: -25px;
 }
 
 header .dataTime span.time {
@@ -147,6 +153,11 @@ header .dataTime span.time {
     font-weight: 700;
     color: #ffffff;
     padding-left: 60px;
+    letter-spacing: 0.15em;
+    position: relative;
+    top: 10px;
+    left: -25px;
+
 }
 
 header .dataTime span.date {
@@ -156,8 +167,10 @@ header .dataTime span.date {
     display: block;
     text-transform: uppercase;
     padding-left: 243px;
-    margin-top: -60px;
-
+    margin-top: -45px;
+    position: absolute;
+    letter-spacing: 0.1em;
+    left: 13px;
 }
 
 header .dataTime span.yers {
@@ -166,13 +179,17 @@ header .dataTime span.yers {
     color: #9ec2f8;
     font-weight: 500;
     padding-left: 245px;
+    position: relative;
+    letter-spacing: 0.1em;
+    top: -32px;
+    left: -23px;
 }
 
 header .input {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    top: 20px;
+    top: 40px;
     left: 48px;
 
 }
@@ -180,16 +197,21 @@ header .input {
 header .input span:nth-child(odd) {
     font-size: 17px;
     color: #89b4f4;
-    padding-left: 35px;
-
+    padding-left: 45px;
+    position: absolute;
+    top: 25px;
 }
 
 header .input span:nth-child(even) {
     font-size: 13px;
-    line-height: 84px;
+    line-height: 34px;
     color: #ffffff;
     text-transform: uppercase;
-
+    padding-left: 40px;
+    letter-spacing: 0.21em;
+    position: relative;
+    top: -12px;
+    left: 28px;
 }
 
 header .input {
@@ -239,7 +261,7 @@ header .input {
 
 header .menu li {
     display: inline-block;
-    padding-top: 30px;
+    margin-top: -10px;
     padding-left: 70px;
 
 }
@@ -323,28 +345,33 @@ header .menu li {
     margin-left: 55px;
 }
 
-.banner .statisticBlock .in {
-    position: relative;
+.banner .statisticBlock .card img {
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -10px;
+    left: -110px;
 }
 
-.banner .statisticBlock span:first-child {
+.banner .statisticBlock .in {
+    position: relative;
+    left: 20px;
+    top: -50px;
+    margin-left: 110px;
+}
+
+.banner .statisticBlock span:nth-child(2) {
     display: block;
     position: absolute;
-    left: -35px;
+    top: 10px;
+    left: -84px;
     bottom: 50%;
 }
 
-.statisticBlock span:first-child {
+.statisticBlock span:nth-child(2) {
     color: #012c7a;
     font-size: 36px;
     background-color: #fff;
-    box-shadow: 21px 21px 21px 0px rgba(136, 163, 221, 0.33);
-}
-
-.statisticBlock span:nth-child(2) {
-    font-size: 16px;
-    line-height: 33px;
-    color: #012c7a;
 }
 
 .statisticBlock span.dollar {
@@ -391,6 +418,22 @@ header .menu li {
     text-decoration: none;
 }
 
+.info .tabs img {
+    position: relative;
+    top: 50px;
+    left: 5px;
+    border-left: 5px solid #e0186c;
+}
+
+.info .tabs li {
+    padding-left: 50px;
+    margin-top: -20px;
+}
+
+.info ul {
+    margin-top: -115px;
+}
+
 .info ul a:hover {
     color: #e0186c;
 }
@@ -401,6 +444,9 @@ header .menu li {
     font-weight: 700;
     color: #e0186c;
     text-transform: uppercase;
+    position: relative;
+    letter-spacing: 0.1em;
+    top: -35px;
 }
 
 .info .tabs a {
@@ -416,12 +462,17 @@ header .menu li {
     margin-top: 50px;
 }
 
+.info .accordion {
+    padding-left: 100px;
+}
+
 .info .accordion h2 {
     font-size: 50px;
-    line-height: 84px;
+    line-height: 50px;
     font-weight: 700;
     color: #0349c6;
     padding-bottom: 72px;
+    letter-spacing: 0.02em;
 }
 
 .info .accordion p.title {
@@ -446,16 +497,28 @@ header .menu li {
 .tabs .but2 button {
     display: block;
     position: absolute;
-    left: -38px;
-    top: 90px;
+    left: 50px;
+    top: 120px;
     font-size: 16px;
     line-height: 53px;
     color: #ffffff;
     text-align: center;
-    width: 200px;
+    width: 165px;
     background-color: #2f7bde;
     border: none;
     font-weight: 700;
+}
+
+.tabs .but2 button:hover {
+    color: #ffffff;
+    border: 2px solid #013490;
+    background-color: #5ba1fc;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    outline: none;
 }
 
 .but2 button {
@@ -482,21 +545,26 @@ header .menu li {
 }
 
 .tarif {
+    margin-top: -50px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #eaeff9;
     margin-bottom: -155px;
-    margin-top: 25px;
+    height: 1300px;
+
 }
 
 .tarif .cards .in {
     position: relative;
+    top: 35px;
+
 }
 
 .tarif .cards span[class^="icon-"] {
     display: block;
     position: absolute;
-    left: -80px;
+    left: -100px;
+    top: -10px;
 
 }
 
@@ -508,7 +576,7 @@ header .menu li {
 }
 
 .tarif .card span[class^=icon] {
-    font-size: 68px;
+    font-size: 100px;
 }
 
 .tarif a {
@@ -560,16 +628,37 @@ header .menu li {
     font-weight: 700;
     color: #ffffff;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+   position: relative;
+    top: 60px;
+    padding-left: 10px;
 }
 
 .tarif .contentcard .planBlock {
-    background-color: #012c7a;
-    border: 1px dashed #ffffff;
+    width: 1195px;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 40px;
+}
+
+.tarif .planBlock .ulplan,
+.tarif .planBlock .ulplan2,
+.tarif .planBlock .ulplan3,
+.tarif .planBlock .ulplan4 {
+    float: left;
+}
+
+.contentcard .planBlock .ulplan {
+    padding-left: 90px;
+    padding-top: 35px;
 }
 
 .contentcard .planBlock .ulplan span:nth-child(odd) {
     font-size: 15px;
-    line-height: 50px;
+    line-height: 30px;
     font-weight: 300;
     color: #96c2ff;
     text-transform: uppercase;
@@ -582,25 +671,31 @@ header .menu li {
     color: #ffffff;
     text-transform: uppercase;
 }
-
+.contentcard .planBlock .ulplan2 {
+    padding-top: 40px;
+    padding-left: 65px;
+}
 .contentcard .planBlock .ulplan2 span.min {
     font-size: 15px;
-    line-height: 33px;
+    line-height: 15px;
     font-weight: 300;
     text-transform: uppercase;
     color: #ffffff;
+    display: block;
 }
-
+.contentcard .planBlock .ulplan2 .niz {
+    padding-top: 20px;
+}
 .contentcard .planBlock .ulplan2 span.dollar {
     font-size: 27px;
-    line-height: 33px;
+    line-height: 10px;
     font-weight: 700;
     color: #2b7fed;
 }
 
 .contentcard .planBlock .ulplan2 span.price {
     font-size: 15px;
-    line-height: 33px;
+    line-height: 10px;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
@@ -608,7 +703,7 @@ header .menu li {
 
 .contentcard .planBlock .ulplan2 span.payMents {
     font-size: 15px;
-    line-height: 33px;
+    line-height: 10px;
     font-weight: 300;
     text-transform: uppercase;
     color: #96c2ff;
@@ -622,25 +717,57 @@ header .menu li {
     color: #ffffff;
 }
 
+.planBlock .ulplan3 {
+    padding-left: 70px;
+}
+
 .planBlock .ulplan3 span.percent {
     font-size: 90px;
-    line-height: 90px;
+    line-height: 20px;
     font-weight: 700;
     color: #e0186c;
+
+}
+
+.planBlock .ulplan4 {
+    padding-left: 88px;
 }
 
 .planBlock .ulplan4 span.percent {
     font-size: 90px;
-    line-height: 90px;
+    line-height: 20px;
     font-weight: 700;
     color: #2b7fed;
 }
+.contentcard .listPlan .item {
+   position: relative;
+    top: 65px;
+    left: 140px;
 
+}
+.contentcard .listPlan .item2 {
+    position: relative;
+    top: 82px;
+    left: 25px;
+
+}
+.contentcard .listPlan .item2 label {
+    position: relative;
+    left: 90px;
+    top: 10px;
+}
+.contentcard .listPlan span.dol {
+    position: relative;
+    left: -20px;
+}
 .contentcard .listPlan label {
     font-size: 15px;
     line-height: 84px;
     text-transform: uppercase;
     color: #96c2ff;
+    position: relative;
+    top: 25px;
+    letter-spacing: 0.1em;
 }
 
 .contentcard .listPlan input {
@@ -649,6 +776,7 @@ header .menu li {
     color: #ffffff;
     width: 300px;
     height: 55px;
+    box-shadow: inset 2px 2px 3px 0px rgba(0,29,83,0.33);
     background-color: #0b48af;
     border: 1px solid #3168cb;
 }
@@ -675,12 +803,24 @@ header .menu li {
     color: #ffffff;
     font-weight: 500;
     width: 300px;
+    padding: 15px;
+    box-shadow: inset 2px 2px 3px 0px rgba(0,29,83,0.33);
     background-color: #0b48af;
     border: 1px solid #3168cb;
 }
-
+.contentcard .listPlan select:hover {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    background-color: #326aca;
+    border: 2px solid #1749a2;
+}
 .contentcard .calculator {
     text-align: center;
+    position: relative;
+    top: 130px;
 }
 
 .contentcard .calculator input {
@@ -697,6 +837,8 @@ header .menu li {
 
 .contentcard .yourProfit {
     text-align: center;
+    position: relative;
+    top: 140px;
 }
 
 .contentcard .yourProfit span:first-child {
@@ -710,7 +852,7 @@ header .menu li {
 
 .contentcard .yourProfit span.dollar {
     font-size: 50px;
-    line-height: 55px;
+    line-height: 35px;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
@@ -718,6 +860,9 @@ header .menu li {
 
 .contentcard .but {
     text-align: center;
+    position: relative;
+    top: 120px;
+    left: -10px;
 }
 
 .contentcard .planBlock div {
@@ -743,16 +888,13 @@ header .menu li {
 .video {
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 50px;
+    margin-bottom: 320px;
+    position: relative;
+    width: 1445px;
+    top: 30px;
+    left: 250px;
+    z-index: 3;
 }
-
-.video .videoGraph span.title {
-    font-size: 50px;
-    line-height: 84px;
-    font-weight: 700;
-    color: rgba(3, 73, 198, 0.11)
-}
-
 .video .in {
     position: relative;
 }
@@ -769,27 +911,34 @@ header .menu li {
 
 .video .videoGraph img {
     border: 11px solid #ffffff;
+    position: relative;
+    top: 90px;
 }
 
 .video .videoGraph span.icon-power {
     font-size: 95px;
     line-height: 95px;
     color: #ffffff;
+    top: 30px;
+    left: -35px;
+    position: relative;
     box-shadow: 0px 0px 51px 33px rgba(0, 7, 49, 0.55);
     border-radius: 50%;
 }
 
-.video .statisticWebsite4 span:first-child {
+ .statisticWebsite4 span:first-child {
     color: #4194ff;
 }
 
-.video .statisticWebsite5 span:first-child {
+.statisticWebsite5 span:first-child {
     color: #de1c6e;
 }
 
 .statistic {
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 1;
+    position: absolute;
 }
 
 .statistic span[class^="icon"] {
@@ -868,7 +1017,7 @@ header .menu li {
 }
 
 .total {
-    margin-top: 445px;
+    margin-top: 530px;
 }
 
 .total .table {
