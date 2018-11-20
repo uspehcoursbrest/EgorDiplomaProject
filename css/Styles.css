@@ -1036,12 +1036,14 @@ header .menu li {
     line-height: 21px;
     font-weight: 700;
 }
+
 .statistic .statisticWebsite span.icon-galocha2 {
     position: relative;
     top: -60px;
     font-size: 20px;
 
 }
+
 .statistic .statisticWebsite img {
     width: 40px;
     position: absolute;
@@ -1062,7 +1064,7 @@ header .menu li {
     background-position: center;
     position: relative;
     width: 270px;
-    box-shadow: 21px 21px 21px 0px rgba(136,163,221,0.33);
+    box-shadow: 21px 21px 21px 0px rgba(136, 163, 221, 0.33);
 }
 
 .statistic .statisticWebsite4 {
@@ -1076,20 +1078,23 @@ header .menu li {
     width: 270px;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: 21px 21px 21px 0px rgba(136,163,221,0.33);
-    
+    box-shadow: 21px 21px 21px 0px rgba(136, 163, 221, 0.33);
+
 }
+
 .statistic .downStatistic img {
-position: absolute;
+    position: absolute;
     top: -73px;
     left: 110px;
 }
+
 .statistic .downStatistic span.icon-galocha2 {
     position: relative;
     top: -65px;
     font-size: 20px;
     left: 0px;
 }
+
 .statistic .ops .in {
     position: relative;
 }
@@ -1111,36 +1116,52 @@ position: absolute;
     width: 270px;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: 21px 21px 21px 0px rgba(136,163,221,0.33);
+    box-shadow: 21px 21px 21px 0px rgba(136, 163, 221, 0.33);
 }
 
 .total {
     margin-top: 530px;
-}
-
-.total .table {
-    width: 100%;
-    display: table;
-}
-.total .oneList li span {
-    padding-right: 50px;
-}
-
-.total .oneList,
-.total .twoList {
-    display: table-cell;
-    width: 50%;
-    vertical-align: middle;
-}
-.listDeposit {
     padding-top: 200px;
 }
-.listDeposit .oneList {
-    text-align: center;
+
+.oneList {
+    margin-left: -20px;
+    top: 500px;
+
 }
 
-.listDeposit .twoList {
-    text-align: center;
+.twoList {
+    margin-left: 10px;
+}
+
+.oneList,
+.twoList {
+    padding-left: 30px;
+    width: 50%;
+    float: left;
+}
+
+.table.full {
+    width: 100%;
+}
+
+.table1 {
+    display: table;
+
+}
+
+.table1 .tRow {
+    display: table-row;
+
+}
+
+.table {
+    padding-left: -50px;
+}
+
+.table .tCell {
+    display: table-cell;
+    padding-left: 35px;
 }
 
 .total .listDeposit h2 {
@@ -1149,12 +1170,12 @@ position: absolute;
     font-weight: 700;
     color: #0349c6;
     position: relative;
-    top: -40px;
+    top: 40px;
     left: 20px;
     padding-bottom: 110px;
 }
 
-.total .oneList span.title {
+.total .oneList .table span.title {
     font-size: 16px;
     line-height: 50px;
     font-weight: 500;
@@ -1167,11 +1188,16 @@ position: absolute;
     color: #91a8ce;
 }
 
-.total .oneList span[class^="icon"] {
+.total .oneList li.tRow span:nth-child(3) {
     color: #4194ff;
 }
 
-.total .oneList span.dollar {
+.total .table span:nth-child(3) {
+    position: relative;
+    left: 20px;
+}
+
+.total .oneList li.tRow span:nth-child(4) {
     font-size: 16px;
     line-height: 50px;
     font-weight: 700;
@@ -1195,11 +1221,11 @@ position: absolute;
     color: #91a8ce;
 }
 
-.total .twoList span[class^="icon"] {
+.total .twoList li.tRow span:nth-child(3) {
     color: #de1c6e;
 }
 
-.total .twoList span.dollar {
+.total .twoList li.tRow span:nth-child(4) {
     font-size: 16px;
     line-height: 50px;
     font-weight: 700;
@@ -1212,13 +1238,14 @@ position: absolute;
 
 .total .but2 {
     text-align: center;
+
 }
 
 .advantages {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #eaeff9;
-
+    height: 740px;
 
 }
 
@@ -1229,6 +1256,10 @@ position: absolute;
     color: #ffffff;
     text-align: center;
     padding-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    position: relative;
+    top: 20px;
 
 }
 
@@ -1236,6 +1267,7 @@ position: absolute;
     font-size: 20px;
     line-height: 33px;
     font-weight: 300;
+    padding-top: 50px;
     color: #ffffff;
     text-align: center;
 }
@@ -1244,6 +1276,73 @@ position: absolute;
     font-size: 16px;
     line-height: 30px;
     color: #70aeff;
+}
+
+.advantages div:nth-child(4) p {
+    position: relative;
+    left: 300px;
+    top: -15px;
+}
+
+.advantages div:nth-child(4) span {
+    position: relative;
+    left: -280px;
+    top: -40px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-left: 120px;
+}
+
+.advantages div:nth-child(4) span.per2 {
+    position: relative;
+    left: -120px;
+    font-size: 60px;
+}
+
+.advantages div:nth-child(3) span {
+    position: relative;
+    left: 20px;
+    padding-top: 50px;
+    top: -40px;
+    padding-left: 110px;
+}
+
+.advantages div:nth-child(3) span.per1 {
+    position: relative;
+    left: -110px;
+    font-size: 60px;
+}
+
+.block .persent1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 205px;
+    width: 230px;
+}
+
+.block .persent2 {
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 205px;
+    width: 230px;
+}
+
+.block p {
+    padding-top: 20px;
+
+}
+
+.block p,
+.block .persent1 {
+    float: left;
+    width: 50%;
+}
+
+.block p,
+.block .persent2 {
+    float: left;
+    width: 50%;
 }
 
 .advantages span.persent1 {
@@ -1261,7 +1360,8 @@ position: absolute;
 
 .advantages .but {
     text-align: center;
-
+    position: relative;
+    top: -20px;
 }
 
 .advantages .block {
@@ -1276,12 +1376,13 @@ position: absolute;
     line-height: 84px;
     font-weight: 700;
     color: #0349c6;
-    padding-top: 120px;
+    padding-top: 90px;
     padding-bottom: 130px;
 }
 
 .news {
     background-color: #fff;
+
 }
 
 .news p:first-child {
@@ -1289,16 +1390,24 @@ position: absolute;
     line-height: 40px;
     font-weight: 700;
     color: #061046;
+    text-align: left;
+    padding-left: 50px;
 }
 
 .news span[class^="icon"] {
     color: #de1c6e;
+    position: relative;
+    font-size: 20px;
+    left: -40px;
 }
 
 .news span.data {
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 13px;
+    line-height: 60px;
     color: #739cdd;
+    position: relative;
+    left: -30px;
+    text-transform: uppercase;
 }
 
 .news p.title {
@@ -1310,7 +1419,15 @@ position: absolute;
 .news .list {
     width: 33%;
     float: left;
+    position: relative;
     text-align: center;
+    padding-bottom: 200px;
+}
+.news .but2 {
+    position: absolute;
+    display: block;
+    top: 350px;
+    left: 50px;
 }
 
 .payments {
@@ -1327,7 +1444,7 @@ position: absolute;
 footer {
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -50px;
+
 }
 
 footer .table {
@@ -1451,7 +1568,21 @@ footer .menuFooter a {
 footer .menuFooter a:hover {
     color: #e0186c;
 }
-
+.up {
+    position: fixed;
+    left: 10px;
+    bottom: 100px;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 70px;
+    height: 55px;
+    color: #fff;
+    border-radius: 80%;
+    text-decoration: none;
+    font-weight: 500;
+    border: 3px dashed #fff;
+    background-color: #0349c6;
+}
 .left {
     background-color: #00256a;
     position: absolute;
