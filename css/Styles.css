@@ -2266,8 +2266,61 @@ footer .menuFooter a:hover {
     .banner .statisticBlock .card img {
         display: none;
     }
-    .statisticBlock .card {
-        padding-left: -20px;
+    .info .tabs {
+        margin-left: -130px;
+    }
+
+    .info .accordion {
+        margin-left: -200px;
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .info .accordion p.title {
+        font-size: 16px;
+    }
+    .info .accordion p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .tarif {
+        -webkit-background-size: cover;
+        background-size: cover;
+        width: 1053px;
+    }
+    .tarif .card {
+        display: inline-block;
+        width: 130px;
+        margin-left: 82px;
+        margin-right: 99px;
+        margin-top: 40px;
+    }
+    .table .tCell {
+        display: table-cell;
+        padding-left: 20px;
+    }
+    .news .item {
+        background-position: center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        float: left;
+        margin-left: -22px;
+    }
+    .news .list {
+        padding-bottom: 200px;
+    }
+    .payments {
+        display: block;
+        width: 100%;
+    }
+    .payments img {
+        text-align: center;
+        padding-left: 50px;
+        padding-top: 70px;
+        padding-bottom: 5px;
+        display: inline-block;
+        width: 170px;
     }
     .bodyDeposit {
         display: none;
