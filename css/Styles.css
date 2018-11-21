@@ -91,6 +91,8 @@ header {
     height: 980px;
     margin-top: -150px;
     padding-bottom: 1170px;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 header .logo {
@@ -288,6 +290,8 @@ header .menu li {
 
 .banner {
     margin-top: 120px;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .banner .infoContent span {
@@ -437,6 +441,8 @@ header .menu li {
     margin-left: 400px;
     padding-left: 30px;
     margin-top: 120px;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .statisticBlock .card span.icon-triangleDown {
@@ -489,6 +495,8 @@ header .menu li {
 .info {
     background-color: #eaeff9;
     margin-top: 50px;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .info .accordion {
@@ -581,7 +589,8 @@ header .menu li {
     background-color: #eaeff9;
     margin-bottom: -155px;
     height: 1300px;
-
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .tarif .cards .in {
@@ -940,7 +949,8 @@ header .menu li {
     top: 30px;
     left: 250px;
     z-index: 3;
-
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .video .in {
@@ -987,6 +997,8 @@ header .menu li {
     background-position: center;
     z-index: 1;
     position: absolute;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .statistic span[class^="icon"] {
@@ -1122,6 +1134,7 @@ header .menu li {
 .total {
     margin-top: 530px;
     padding-top: 200px;
+
 }
 
 .oneList {
@@ -1382,7 +1395,8 @@ header .menu li {
 
 .news {
     background-color: #fff;
-
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .news p:first-child {
@@ -1417,17 +1431,42 @@ header .menu li {
 }
 
 .news .list {
-    width: 33%;
     float: left;
     position: relative;
     text-align: center;
     padding-bottom: 200px;
 }
+
 .news .but2 {
     position: absolute;
     display: block;
     top: 350px;
     left: 50px;
+}
+
+.news .item {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider .owl-nav > button[class^="owl"] {
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 58px;
+    top: 50%;
+    color: #0876a7;
+    margin-top: -30px;
+}
+
+.slider .owl-nav button.owl-prev {
+    left: -50px;
+}
+
+.slider .owl-nav button.owl-next {
+    right: -50px;
 }
 
 .payments {
@@ -1568,10 +1607,11 @@ footer .menuFooter a {
 footer .menuFooter a:hover {
     color: #e0186c;
 }
+
 .up {
     position: fixed;
     left: 10px;
-    bottom: 100px;
+    bottom: 20px;
     text-transform: uppercase;
     font-size: 20px;
     width: 70px;
@@ -1583,6 +1623,7 @@ footer .menuFooter a:hover {
     border: 3px dashed #fff;
     background-color: #0349c6;
 }
+
 .left {
     background-color: #00256a;
     position: absolute;
@@ -2194,6 +2235,40 @@ footer .menuFooter a:hover {
 }
 
 @media (max-width: 1199px) {
+    .container {
+        width: 980px;
+    }
+    header .logo {
+        margin-left: -120px;
+
+    }
+    header .dataTime {
+       left: -50px;
+    }
+    header .input {
+        left: -40px;
+    }
+    header .menu li {
+        padding-left: 30px;
+
+    }
+
+    .statisticBlock .card {
+        padding-left: 13px;
+    }
+    .banner .statisticBlock  {
+        padding-left: 10px;
+        margin-left: 160px;
+    }
+    .banner .statisticBlock span:nth-child(2) {
+        display: none;
+    }
+    .banner .statisticBlock .card img {
+        display: none;
+    }
+    .statisticBlock .card {
+        padding-left: -20px;
+    }
     .bodyDeposit {
         display: none;
     }

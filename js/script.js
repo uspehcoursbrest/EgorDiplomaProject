@@ -43,4 +43,12 @@ btnUp.click(function () {
     }, 500)
     return false;
 });
+    $(".slider").owlCarousel({
+        margin: 30,
+        dots: false,
+        nav: true,
+        navText: ["<",">"],
+        loop: true
+    });
 });
+
