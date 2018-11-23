@@ -2315,17 +2315,56 @@ footer .menuFooter a:hover {
         left: 5px;
     }
     .video {
-          margin-left: -500px;
+
+        -webkit-background-size: cover;
+        background-size: cover;
+        width: 0px;
+        top: 30px;
+        left: 0px;
       }
+    .video .videoGraph h2 {
+        margin-left: 165px;
+        margin-top: 155px;
+    }
+    .advantages .block {
+        margin-left: -60px;
+
+    }
+    .advantages .block span {
+        display: none;
+    }
     .total {
         margin-left: -100px;
+        margin-top: 530px;
+        padding-top: 200px;
+        padding-right: 115px;
+    }
+    .total .but2 {
+
+        position: relative;
+        left: 90px;
+        top: 20px;
+    }
+    .total .oneList li span:last-child {
+        padding-top: -8px;
+        margin-top: -20px;
+    }
+    .total .twoList li span:last-child {
+        padding-top: -8px;
+        margin-top: -20px;
     }
     .statistic {
-        margin-left: -700px;
+        margin-left: -350px;
+        -webkit-background-size: cover;
+        background-size: cover;
     }
+
     .table .tCell {
         display: table-cell;
         padding-left: 20px;
+    }
+    .news {
+        margin-left: -200px;
     }
     .news .item {
         background-position: center;
@@ -2351,6 +2390,25 @@ footer .menuFooter a:hover {
         display: inline-block;
         width: 170px;
     }
+    .menuFooter li {
+        display: inline-block;
+        padding-left: 24px;
+        padding-right: 12px;
+    }
+    footer {
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    footer .table {
+        width: 100%;
+        display: table;
+        padding-right: 72px;
+        margin-left: 10px;
+    }
+    .but2 button {
+        margin-top: 65px;
+    }
+
     .bodyDeposit {
         display: none;
     }
