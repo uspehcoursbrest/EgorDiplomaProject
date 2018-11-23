@@ -583,12 +583,12 @@ header .menu li {
 }
 
 .tarif {
-    margin-top: -80px;
+
     background-repeat: no-repeat;
     background-position: center;
     background-color: #eaeff9;
     margin-bottom: -155px;
-    height: 1300px;
+    height: 1150px;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1259,7 +1259,6 @@ header .menu li {
     background-position: center;
     background-color: #eaeff9;
     height: 740px;
-
 }
 
 .advantages h3 {
@@ -1397,6 +1396,7 @@ header .menu li {
     background-color: #fff;
     -webkit-background-size: cover;
     background-size: cover;
+
 }
 
 .news p:first-child {
@@ -1462,11 +1462,13 @@ header .menu li {
 }
 
 .slider .owl-nav button.owl-prev {
-    left: -50px;
+    left: 1000px;
+    top: -100px;
 }
 
 .slider .owl-nav button.owl-next {
     right: -50px;
+    top: -100px;
 }
 
 .payments {
@@ -2293,6 +2295,33 @@ footer .menuFooter a:hover {
         margin-left: 82px;
         margin-right: 99px;
         margin-top: 40px;
+    }
+    .tarif div:nth-child(3) {
+        left: 60px;
+    }
+    .tarif {
+        background-image: none !important;
+        background-color: #012c7a;
+    }
+    .planBlock {
+        background-image: none !important;
+        background-color: #023aa0;
+        margin-left: -130px;
+    }
+    .contentcard .listPlan .item {
+        left: 0;
+    }
+    .contentcard .listPlan .item2 {
+        left: 5px;
+    }
+    .video {
+          margin-left: -500px;
+      }
+    .total {
+        margin-left: -100px;
+    }
+    .statistic {
+        margin-left: -700px;
     }
     .table .tCell {
         display: table-cell;

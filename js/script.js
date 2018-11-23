@@ -47,7 +47,7 @@ btnUp.click(function () {
         margin: 30,
         dots: false,
         nav: true,
-        navText: ["<",">"],
+        navText: ["\t&#8592;","\t&#8594;"],
         loop: true
     });
 });
