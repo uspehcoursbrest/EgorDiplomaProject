@@ -1094,6 +1094,18 @@ header .menu li {
 
 }
 
+.statistic .statisticWebsite5 {
+    display: inline-block;
+    float: right;
+    position: relative;
+    text-align: center;
+    top: 245px;
+    left: 730px;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 21px 21px 21px 0px rgba(136, 163, 221, 0.33);
+}
 .statistic .downStatistic img {
     position: absolute;
     top: -73px;
@@ -1118,18 +1130,7 @@ header .menu li {
     right: 15px;
 }
 
-.statistic .statisticWebsite5 {
-    display: inline-block;
-    float: right;
-    position: relative;
-    text-align: center;
-    top: 245px;
-    left: 730px;
-    width: 270px;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: 21px 21px 21px 0px rgba(136, 163, 221, 0.33);
-}
+
 
 .total {
     margin-top: 530px;
@@ -1705,6 +1706,8 @@ footer .menuFooter a:hover {
 .right header.referrals {
     background-color: #003ead;
     padding-left: 100px;
+    margin-top: 0;
+    padding-bottom: 0;
 }
 
 .right header.referrals a {
@@ -2016,26 +2019,26 @@ footer .menuFooter a:hover {
     height: 150px;
     margin-top: 25px;
     margin-left: 220px;
-    background-color: #003ead;
+
 
 }
 
-.depItem .name:before {
-    right: 100%;
-    border-left: 40px solid blue;
-}
+/*.depItem .name:before {*/
+    /*right: 100%;*/
+    /*border-left: 40px solid blue;*/
+/*}*/
 
-.depItem .name::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    top: 0px;
-    border-top: 75px solid transparent;
-    border-bottom: 75px solid transparent;
-    border-right: 30px solid transparent;
-}
+/*.depItem .name::before {*/
+    /*content: '';*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*width: 0px;*/
+    /*height: 0px;*/
+    /*top: 0px;*/
+    /*border-top: 75px solid transparent;*/
+    /*border-bottom: 75px solid transparent;*/
+    /*border-right: 30px solid transparent;*/
+/*}*/
 
 .depItem .name span[class^="icon"] {
     font-size: 100px;
@@ -2415,11 +2418,6 @@ footer .menuFooter a:hover {
 }
 
 @media (max-width: 991px) {
-    .menu {
-        display: none;
-    }
 
-    .list {
-        display: none;
-    }
+
 }
