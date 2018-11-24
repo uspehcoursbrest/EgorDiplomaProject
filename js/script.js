@@ -50,5 +50,18 @@ btnUp.click(function () {
         navText: ["\t&#8592;","\t&#8594;"],
         loop: true
     });
+    $('select').selectric();
+    $('#calc').ionRangeSlider({
+        grid: true,
+        min: 50,
+       max: 10000,
+       from: 500,
+        step: 100,
+        grid_num: 16,
+        grid_margin: false,
+        onStart: function (data) {
+            $
+        }
+    });
 });
 

@@ -789,19 +789,96 @@ header .menu li {
 }
 
 .contentcard .listPlan .item {
-    position: relative;
-    top: 45px;
-    left: 150px;
+
 
 }
 
 .contentcard .listPlan .item2 {
-    position: relative;
-    top: 62px;
-    left: 30px;
+    float: left;
 
 }
+.selectric {
+    width: 300px;
+}
+.selectric .button {
+    height: 55px;
+    line-height: 55px;
+    background-color: transparent;
+}
+.calculator .irs-line {
+    height: 21px;
+    background-color: #012c7a;
+    border-radius: 11px;
+    z-index: 1;
+}
+.calculator .irs-bar {
+    height: 21px;
+    background-color: #e0186c;
+    border-radius: 11px;
+    z-index: 1;
+}
+.calculator .irs-bar-edge {
+    height: 21px;
+    width: 35px;
+    background-color: #e0186c;
+    border-bottom-left-radius: 11px;
+    -moz-border-radius-topleft: 11px;
+    -moz-border-radius-bottomleft: 11px;
+    z-index: 1;
+}
+.calculator .irs-grid {
+    bottom: 22px;
 
+}
+.calculator .irs-grid .irs-grid-text {
+    display: none;
+}
+.calculator .irs-grid .irs-grid-pol {
+    height: 35px;
+    background-color: #012c7a;
+}
+.calculator .irs-grid .irs-grid-pol:first-of-type {
+    display: none;
+}
+.calculator .irs-grid .irs-grid-pol:nth-last-child(2) {
+    display: none;
+}
+.calculator .irs-slider {
+    top: 12px;
+    width: 47px;
+    height: 47px;
+    background-color: #e0186c;
+    border: 14px solid #e0186c;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.calculator .irs-single {
+    top: -17px;
+    font-size: 15px;
+    line-height: 24;
+    color: #e0186c;
+    font-weight: bold;
+    background-color: transparent;
+}
+.calculator .irs-min,
+.calculator .irs-max {
+    top: -17px;
+    font-size: 15px;
+    line-height: 24;
+    color: #e0186c;
+    font-weight: bold;
+    background-color: transparent;
+}
+.listPlan .selectric  {
+    height: 55px;
+    box-shadow: inset 2px 2px 3px 0px rgba(0, 29, 83, 0.33);
+    background-color: #0b48af;
+    border: 1px solid #3168cb
+}
+.listPlan .selectric .label {
+    line-height: 55px;
+    color: #fff;
+}
 .contentcard .listPlan .item2 label {
     position: relative;
     left: 90px;
@@ -846,8 +923,7 @@ header .menu li {
 
 .contentcard .listPlan span {
     font-size: 17px;
-    line-height: 84px;
-    color: #ffffff;
+  
 }
 
 .contentcard .listPlan select {
@@ -874,8 +950,10 @@ header .menu li {
 
 .contentcard .calculator {
     text-align: center;
-    position: relative;
-    top: 110px;
+    left: 100px;
+    width: 770px;
+    margin-left: 140px;
+    margin-top: 50px;
 }
 
 .contentcard .calculator input {
@@ -2239,7 +2317,10 @@ footer .menuFooter a:hover {
 
     float: right;
 }
+@media (max-width: 1399px) {
 
+
+}
 @media (max-width: 1199px) {
     .container {
         width: 980px;
