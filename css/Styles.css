@@ -1097,6 +1097,7 @@ header .menu li {
 .statistic .statisticWebsite5 {
     display: inline-block;
     float: right;
+    z-index: 1;
     position: relative;
     text-align: center;
     top: 245px;
